@@ -1,0 +1,51 @@
+// Primary Colors
+$primary: hwb(194 0% 0%);
+
+// Basic Colors
+$black: #000000;
+$white: #FFFFFF;
+
+// Grey Shades (for texts)
+$grey-dark: #404040;
+$grey-medium: #585858;
+$grey-light: #343434;
+
+// Utility Colors
+$util-blue: #D9F8FF;
+$util-green: #DEFFD9;
+$util-pink: #FFD9F0;
+
+// Status Colors
+$success: #04C417;
+$info: #27A4FF;
+$warning: #FF912B;
+
+// Additional Colors
+$pink: #FF2782;
+$dark-blue: #0C0F58;
+
+// Exported Palette (Optional for SCSS maps)
+$color-palette: (
+  primary: $primary,
+  black: $black,
+  white: $white,
+  grey: (
+    dark: $grey-dark,
+    medium: $grey-medium,
+    light: $grey-light
+  ),
+  util: (
+    blue: $util-blue,
+    green: $util-green,
+    pink: $util-pink
+  ),
+  status: (
+    success: $success,
+    info: $info,
+    warning: $warning
+  ),
+  additional: (
+    pink: $pink,
+    dark-blue: $dark-blue
+  )
+);

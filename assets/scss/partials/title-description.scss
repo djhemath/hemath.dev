@@ -1,0 +1,26 @@
+.title-description {
+    a {
+        color: map-get($color-palette, black);
+        text-decoration: none;
+        transition: color 0.2s, transform 0.2s;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        &:hover {
+            color: map-get($color-palette, primary);
+            transform: scale(1.1) translateX(30px);
+
+            svg {
+                path {
+                    fill: map-get($color-palette, primary) !important;
+                }
+            }
+        }
+    }
+
+    .description {
+        font-weight: 200;
+        color: map-get(map-get($color-palette, grey), medium);
+    }
+}

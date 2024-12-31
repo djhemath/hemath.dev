@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main id="blog-single">
+  <section>
+    <p id="hemath-blog">Hemath's Blog ☘️</p>
+    <h1 style="margin-top: 42px;">{{ .Title }}</h1>
+    <time datetime="{{.Date}}">{{ .Date.Format "Mon Jan 2, 2006" }}</time>
+
+    {{ if (isset .Params "hero_image") }}
+    <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />
+    {{ end }}
+  </section>
+  <article>
+    {{ .Content }}
+  </article>
+</main>
+{{ end }}

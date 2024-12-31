@@ -1,0 +1,42 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 96px;
+
+    .title {
+        position: absolute;
+        right: 100%;
+        margin-right: 16px;
+        color: rgba(0, 0, 0, 0.4);
+
+        span a {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.4);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .section {
+        .title {
+            position: relative;
+            right: 0;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .section {
+        margin-bottom: 48px;
+    }
+}

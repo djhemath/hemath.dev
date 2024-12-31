@@ -1,0 +1,7 @@
+<ul class="blog">
+    {{ range first 5 (where .Site.Pages "Type" "blog") }}
+        {{ if not .IsSection }}
+            <li>{{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink) }}</li>
+        {{ end }}
+    {{ end }}
+</ul>

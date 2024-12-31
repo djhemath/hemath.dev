@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} | {{ .CurrentSection.Title }}{{ end }}</title>
+    {{ $style := resources.Get "scss/styles.scss" | toCSS | minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+    {{ if eq .Kind "home" }}
+    <!-- For home page -->
+    <meta name="description" content="Hemath is a Software Engineer with expertise in React, TypeScript, Node.js, and full-stack development">
+    <meta name="keywords" content="Software Engineer, Software Engineer in Chennai, Best software engineer in chennai, React developer, JavaScript developer, TypeScript developer, NodeJS developer, Fullstack developer, Python developer">
+
+    <meta property="og:title" content="Hemath - Software Engineer">
+    <meta property="og:description" content="Hemath is a Software Engineer with expertise in React, TypeScript, Node.js, and full-stack development">
+    <meta property="og:url" content="https://hemath.dev">
+    {{ end }}
+
+
+    {{ if eq .Type "blog" }}
+    <!-- For blog posts -->
+    <meta name="description" content="{{ .Params.excerpt }}">
+    <meta name="keywords" content="{{ .Params.keywords }}">
+
+    <!-- Open Graph Meta Tags for social sharing -->
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Params.excerpt }}">
+    <meta property="og:image" content="{{ .Params.hero_image }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="article">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Params.excerpt }}">
+    <meta name="twitter:image" content="{{ .Params.hero_image }}">
+    {{ end }}
+        
+
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>

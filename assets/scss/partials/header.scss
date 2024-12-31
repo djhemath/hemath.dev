@@ -1,0 +1,165 @@
+header {
+    max-width: 600px;
+    margin: auto;
+    padding: 16px 0;
+
+    #menu-toggle {
+        display: none;
+    }
+
+    nav {
+        background-color: map-get($color-palette, $white);
+        
+        ul {
+            display: flex;
+            // justify-content: space-between;
+            justify-content: start;
+            gap: 32px;
+
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            font-size: 16px;
+            color: map-get($color-palette, black);
+            text-decoration: none;
+            font-weight: 300;
+
+            &.active {
+                color: map-get($color-palette, primary);
+            }
+        }
+    }
+}
+
+.hamburger-btn, .close-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 24px rgba($color: #000000, $alpha: 0.25);
+    border-radius: 50%;
+    background-color: map-get($color-palette, $white);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    z-index: 1001;
+
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.hamburger-btn {
+    #ham, #close {
+        position: absolute;
+        transition: all 0.3s;
+    }
+}
+
+header .social-links {
+    display: none;
+
+    justify-content: space-around !important;
+    padding: 24px !important;
+    gap: 20px;
+
+    margin: 0 !important;
+}
+
+.greeting {
+    display: none;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+@media only screen and (max-width: 560px) {
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .nav-container {
+        width: 98%;
+        height: 100vh;
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        flex-direction: column;
+        transition: top 0.3s;
+        z-index: 1000;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        ul {
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 48px;
+
+            a {
+                font-size: 32px;
+                font-weight: 500;
+            }
+        }
+
+        .greeting {
+            display: block;
+        }
+
+        .social-links {
+            display: flex;
+        }
+    }
+
+    // Prevent scroll if the menu is open
+    // Might not work as :has doesn't have full support
+    // To counter it, header position is set to fixed, so that even when scrolled people only see the menu
+    body:has(#menu-toggle:checked) {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #menu-toggle:not(:checked) + .nav-container {
+        top: -100vh;
+    }
+
+    #menu-toggle:checked ~ .nav-container {
+        top: 0;
+    }
+
+    #menu-toggle:not(:checked) ~ .hamburger-btn #ham {
+        right: 8px;
+        transform: scale(1);
+    }
+
+    #menu-toggle:not(:checked) ~ .hamburger-btn #close {
+        right: 30px;
+        transform: scale(0);
+    }
+
+    #menu-toggle:checked ~ .hamburger-btn #ham {
+        right: -30px;
+        transform: scale(0);
+    }
+
+    #menu-toggle:checked ~ .hamburger-btn #close {
+        right: 12px;
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .social-links {
+        justify-content: space-around;
+    }
+}

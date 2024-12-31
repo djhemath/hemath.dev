@@ -1,0 +1,9 @@
+{{ define "main" }}
+<main id="blogs">
+  <h1>Hemath's Blog ☘️</h1>
+  {{ range .Pages }}
+    {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" "Lorem ipsum dolor sit amet" "url" .Permalink) }}
+    <div class="divider-rule"></div>
+  {{ end }}
+</main>
+{{ end }}

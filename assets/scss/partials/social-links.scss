@@ -1,0 +1,63 @@
+.social-links {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 60px;
+    cursor: pointer;
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        transition: transform 0.2s;
+
+        a {
+            text-decoration: none;
+            color: map-get($color-palette, black);
+            transition: color 0.2s;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+
+            a {
+                color: map-get($color-palette, primary);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .social-links {
+        gap: 24px !important;
+        justify-content: space-evenly;
+    }
+}
+
+.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+  
+@-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
