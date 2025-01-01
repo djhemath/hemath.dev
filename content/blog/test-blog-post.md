@@ -27,3 +27,5 @@ void hey() {
   printf("%s", "Hey!");
 }
 ~~~
+
+![targets](/images/2024-lookback/hemath-at-techxconf.jpeg)
