@@ -131,3 +131,4 @@ And then we continued the ride. Arvind drove for while. We went to Mahabalipuram
 
 Overall, it was a nice experience and thought me a very important lesson that we shouldn't park car in the highway without valid reasons. Otherwise, corrups cops will come at you for your money.
 
+[TODO: Attach pictures and video took by Arvind, also attach the Google]
