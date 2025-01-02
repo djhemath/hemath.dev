@@ -103,3 +103,31 @@ With that No Agenda Coffee, I officially became a mentor at Think Digital, open 
 
 ![Invitation to be a mentor at Think Digital](/images/2024-lookback/hemath-invitation-as-mentor-in-think-digital.jpeg)
 [Became a mentor at Think Digital](https://www.linkedin.com/posts/djhemath_and-its-time-to-give-something-back-to-activity-7189689764256571393-bnl_?utm_source=share&utm_medium=member_desktop)
+
+
+### May
+May month started with a set of new things like April.
+
+#### Car ride with friends
+Me and Pavan planned to rent a car to drive full day to practice driving. I just got my LLR, so I wanted to utilize the time to drive. So we rented a car in Zoom car app. Brought Karthi, Arvind and Rohinth along with us.
+
+The initial plan is to go as long as possible in the ECR and come back to home safely. The car was parked in a mall named "Aerohub" in Chennai airport. Me, Pavan and Rohinth woke up early and travelled to Aiport via public transport.
+
+Pavan was a little bit hesitant to drive the car after a very long time. But I was very motivated and too amazed to drive the car. So I got in the driver seat, turned on the car, put the reverse gear and pressed the accelerator while leaving the clutch slowly. The car turned off!
+
+Tried it like 3 times and only after realized that handbrake wasn't released. Released the handbrake and the car started obeying my orders xD. Reversed the car, drove the car down to the ground floor. Yes, it was that fancy spiral parking lot. Went to the road and started driving it casually. I did some mistakes like not checking the mirrors and getting nervous when operating the car at first gear.
+
+After sometime, it became very normal to me. And I drove the car from Chennai Airport to Karapakkam OMR via Medavakkam. It is one of the congested path to drive. Especially from Medavakkam to Sholinganallur was very congested because of metro construction. I somehow managed all these, especially I re-fueled the car in Medavakkam to Sholinganallur road, and re-joined the traffic without any issues.
+
+And Pavan asked to drive, so that he can learn the navigate in the cities. The initial plan is that I'll get the car to ECR while picking up everyone along the way. But Pavan started driving from Karapakkam and he did a great job TBH. And we picked up Karthi and Arvind along the way and went to ECR.
+
+We drove very happily, constantly chit-chatting and it was fun. Until, near Mahabalipuram, I saw a place that looked like a little forest which goes to beach. I thought that'll be a great experience to walk inside the forest upto beach. It's basically 500 meters to the beach from there. So, we parked the car, in the highway (which you shouldn't do ever) and went inside.
+
+The place was beautiful. We took some photos and started getting back to the car and that's when a couple of police officers came to us. Asked about the car and why we got into the forest. They started assuming that we are doing some illegal shit. In reality, we just went there to take pictures. They threatened to get the car back to check post and call the car owner to get the car from them.
+
+At this point, we already paid for the car rent. We didn't want to stop the fun and go home. We just talked with them for a while, but they are not ready for the compromise. Because, they are corrupt. They either want some money from us or they will seize the car. They openly asked for 1000 rupees. I didn't want to pay, but Arvind stepped-in and handed 1000 rupees. I was furious, but I couldn't do anything. Just kept my cool to get out of the problem.
+
+And then we continued the ride. Arvind drove for while. We went to Mahabalipuram, toured the place, took some photos, had lunch. And then I decided to drive the car, started driving along Kalpakkam. We went to place, also a beach, but there was a patch of concrete which was lead by a concrete road. It was nice place to train Karthi and Rohinth. They both drove a little bit, not much. And headed back to home.
+
+Overall, it was a nice experience and thought me a very important lesson that we shouldn't park car in the highway without valid reasons. Otherwise, corrups cops will come at you for your money.
+
