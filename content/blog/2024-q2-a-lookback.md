@@ -1,7 +1,7 @@
 ---
 title: 2024 - Q2 - a lookback
 date: '2024-12-28T22:50:00.000Z'
-draft: true
+draft: false
 type: blog
 excerpt: Q2 of 2024 was full of activities and personal milestones. From a calm night cycle ride to Mahabalipuram and an unplanned hike at Kona Falls to becoming a mentor at Think Digital and attending my first tech meetup, April was eventful. May and June brought new experiences, including a spiritual trip with my mom, learning to drive, and purchasing my first vehicle. This period was all about exploration, growth, and embracing challenges!
 ---

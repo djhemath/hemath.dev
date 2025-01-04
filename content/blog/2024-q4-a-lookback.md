@@ -1,7 +1,7 @@
 ---
 title: 2024 - Q4 - a lookback
 date: '2024-12-31T22:50:00.000Z'
-draft: true
+draft: false
 type: blog
 excerpt: Q4 was a rollercoaster of emotions and events. From night cycling adventures and spotting Bitcoin graffiti to launching SnapNostr, which received overwhelming support. I ran my first 5K marathon, faced bittersweet personal news, and navigated the trauma of Sanjay’s accident and recovery. Volunteering at SheBuilds wrapped up the year with a sense of purpose and gratitude.
 ---
