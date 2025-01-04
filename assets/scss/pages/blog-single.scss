@@ -13,6 +13,17 @@
         border: 1px solid #dcdcdc;
     }
 
+    ul {
+        list-style: none;
+
+        line-height: 1.6rem;
+        
+        a {
+            color: map-get($color-palette, primary) !important;
+            text-decoration: none;
+        }
+    }
+
     article {
         * {
             word-break: break-word;

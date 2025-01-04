@@ -6,8 +6,10 @@
     <time datetime="{{.Date}}">{{ .Date.Format "Mon Jan 2, 2006" }}</time>
 
     {{ if (isset .Params "hero_image") }}
-    <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />
+      <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />
     {{ end }}
+
+    {{ .TableOfContents }}
   </section>
   <article>
     {{ .Content }}
