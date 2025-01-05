@@ -13,7 +13,7 @@
         border: 1px solid #dcdcdc;
     }
 
-    ul {
+    #TableOfContents ul {
         list-style: none;
 
         line-height: 1.6rem;
@@ -46,6 +46,31 @@
             padding: 12px;
             overflow: auto;
             border-radius: 4px;
+        }
+
+        blockquote {
+            padding: 16px 0px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            margin: 0 !important;
+            position: relative;
+
+            &:before {
+                content: '';
+                height: 100%;
+                width: 5px;
+                background-color: map-get(map-get($color-palette, status), info);;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            p {
+                font-style: italic !important;
+                color: map-get(map-get($color-palette, grey), light) !important;
+                font-weight: 600 !important;
+                padding-left: 24px;
+            }
         }
     }
 }
