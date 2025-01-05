@@ -9,7 +9,9 @@
       <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />
     {{ end }}
 
-    {{ .TableOfContents }}
+    {{ if ne .Params.table_of_contents false }}
+      {{ .TableOfContents }}
+    {{ end }}
   </section>
   <article>
     {{ .Content }}
