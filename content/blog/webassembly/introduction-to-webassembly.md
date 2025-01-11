@@ -3,7 +3,7 @@ title: Introduction to WebAssembly
 date: '2025-01-14T09:00:00.000Z'
 draft: true
 type: blog
-excerpt: EXCERPT NEED TO BE WRITTEN
+excerpt: Learn what WebAssembly (WASM) is and how it brings near-native performance to web apps. This post covers its basics, use cases, and how it complements JavaScript. Discover why WASM is transforming modern web development.
 ---
 
 WebAssembly, or WASM for short, is a low-level assembly-like language. It lets us run applications built with different programming languages in the browser. It's a truly cross-platform way to build applications. It is low-level so that it runs at near-native speed enabling us to do a lot more on the web that weren't possible with just JavaScript.
