@@ -20,7 +20,8 @@ Almost every post is going to be practical first so that everyone can understand
 - Memory in WebAssembly
 - WebAssembly Tables and Function References
 - Debugging and Profiling WebAssembly
-- Building a practical project in WebAssembly
+- Building a simple image processor using WebAssembly
+- Building a video to gif convertor using WebAssembly
 - Multi-threading in WebAssembly
 - SIMD in WebAssembly
 - WebAssembly beyond the browser
