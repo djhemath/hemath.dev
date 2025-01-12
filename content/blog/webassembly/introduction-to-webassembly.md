@@ -1,10 +1,14 @@
 ---
 title: Introduction to WebAssembly
-date: '2025-01-14T09:00:00.000Z'
+date: '2025-01-13T09:00:00.000Z'
 draft: true
 type: blog
 excerpt: Learn what WebAssembly (WASM) is and how it brings near-native performance to web apps. This post covers its basics, use cases, and how it complements JavaScript. Discover why WASM is transforming modern web development.
 ---
+
+Hey makkals,
+
+This post is a part of multi-part series on WebAssembly. Checkout other parts [here](/blog/webassembly/webassembly-zero-to-hero)
 
 WebAssembly, or WASM for short, is a low-level assembly-like language. It lets us run applications built with different programming languages in the browser. It's a truly cross-platform way to build applications. It is low-level so that it runs at near-native speed enabling us to do a lot more on the web that weren't possible with just JavaScript.
 
@@ -12,7 +16,7 @@ If you’ve ever wished your web apps could run faster or handle tasks that seem
 
 
 ## What is WebAssembly actually?
-WebAssembly is a low-level compilation target. It is designed to run in web browsers. It's not something that lets you directly run other languages. Instead, it specifies an assembly language-like structure which other languages can compile to, thus the term "compilation target".
+WebAssembly is a low-level compilation target. It is designed to run in web browsers. It's not something that lets you directly run other languages. Instead, it specifies an assembly language-like structure which other languages can **compile-to**, thus the term "compilation target".
 
 Let's understand this by a simple example,
 
@@ -129,15 +133,15 @@ This is a compilation-target, not a programming language per se. Almost all the 
 ## Will WebAssembly replace JavaScript?
 **Short answer: No**, at least not anytime soon. WASM is designed to work along with JavaScript, not to replace it. JavaScript and WebAssembly complement each other.
 
-JavaScript was originally created for basic web operations like DOM manipulation and form validation. In the past decades, we wanted more from JavaScript and made it do certain things that it is designed for. The result is poor performance on complex applications. Since JavaScript is interpreted it is relatively slow compared to other compiled languages. However, modern web browsers have a JIT compiler which improves performance of JavaScript applications.
+JavaScript was originally created for basic web operations like DOM manipulation and form validation. In the past decades, we wanted more from JavaScript and made it do certain things that it isn't designed for. The result is poor performance on complex applications. Since JavaScript is interpreted it is relatively slow compared to other compiled languages. However, modern web browsers have a JIT compiler which improves performance of JavaScript applications.
 
-I might probably write a blog post about the JIT compiler soon. But before that you can follow one of my favorite blog post on the topic - https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers
+I might probably write a blog post about the JIT compiler soon. But before that you can follow one of my favorite blog posts on the topic - https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers
 
 Even with JIT compilers, JavaScript can only do so much. That's where WebAssembly comes into the picture.
 
 Let's say we want to process video files. Video files are generally large, and doing some operations with it like optimizing, editing, different codecs, etc., are very data intensive operations. Since JavaScript is interpreted and JIT compiled at its best, it cannot deliver native performance.
 
-But with WebAssembly, we can achieve **near-native** performance since the code is pre-compiled and close to machine code, the execution will be pretty fast. So WebAssembly is just a new gym-rat friend for JavaScript. WebAssembly can do the heavy-lifting CPU intensive tasks very well while JavaScript can do the tasks (DOM manipulations) it was supposed to do.
+But with WebAssembly, we can achieve **near-native** performance since the code is pre-compiled and close to machine code, the execution will be pretty fast. So WebAssembly is just a new gym-rat friend for JavaScript. WebAssembly can do the heavy-lifting CPU intensive tasks very well while JavaScript can do the tasks (DOM manipulations, handling events) it was supposed to do.
 
 ## Use cases of WebAssembly
 WebAssembly’s near-native performance makes it ideal for computationally intensive applications.
@@ -186,12 +190,15 @@ Some of those old projects are,
 4. **Google's Native client (NaCl)** - Above 3 faced performance issues, while NaCl allowed near-native performances and supported multiple architectures. But it was limited to Chrome browsers and failed to gain wide adoption.
 5. **Firefox's asm.js** - Firefox's effort to bring near-native performance to the web. It can be said that it's a direct successor of today's WASM. asm.js is also specified as a compilation target and compiled to a low-level, statically typed JavaScript. It enabled JIT compilers to execute fast as it was statically typed. But it was still slower than native code and produced large code sizes.
 6. **Google's Dart** - Dart could be compiled to JavaScript or run natively in the Dart VM. But it never gained support in other browsers.
-7. And some more like Silverlight.
+7. And some more like Silverlight, etc.,
 
-All of these failed at some point mainly because of the lack of standards and poor performances in some cases. WebAssembly was designed to be solve these problems by being **standard**, **portable**, **secure**, **performant** and **extensible**.
+All of these failed at some point mainly because of the lack of standards and poor performances in some cases. WebAssembly was designed to solve these problems by being **standard**, **portable**, **secure**, **performant** and **extensible**.
 
-The fact that it was adopted as a W3C standard made all major browsers to support it natively. Previously independent companies came up with solutions and tried to integrate with their own browsers and hoped other browsers would implement. But almost all of them. By adopting WebAssembly as a W3C made it clear that all major browsers will support it.
+The fact that it was adopted as a W3C standard made all major browsers to support it natively. Previously independent companies came up with solutions and tried to integrate with their own browsers and hoped other browsers would implement. But almost all of them failed. By adopting WebAssembly as a W3C standard made it clear that all major browsers will support it.
 
 
 ## Conclusion and next steps
-That's it for this post. This post aimed to provide a high-level understanding of what WASM is and its capabilities. In the upcoming posts, we will dive deep into more topics.
+That's it for this post. This post aimed to provide a high-level understanding of what WASM is and its capabilities. In the upcoming posts, we will dive deep into more topics and build some projects in WebAssembly.
+
+
+Read the next post in this series - [Build your first Webassembly project](/blog/webassembly/build-your-first-webassembly-project)
