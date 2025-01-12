@@ -12,10 +12,10 @@ It's been a while since I jumped in WebAssembly. I fell in love with the idea of
 
 Nevertheless, worry not, I'll keep updating the this post with links of all the upcoming ones. This post is going to serve as an index for all other posts.
 
-Almost every post is going to be practical first so that everyone can understand the underlying theory by seeing clear examples.
+Almost every post is going to be practical-first so that everyone can understand the underlying theory by seeing clear examples.
 
-- Introduction to WebAssembly
-- Build your first ever WebAssembly project
+- [Introduction to WebAssembly](/blog/webassembly/introduction-to-webassembly)
+- [Build your first ever WebAssembly project](/blog/webassembly/build-your-first-webassembly-project)
 - WebAssembly architecture
 - Memory in WebAssembly
 - WebAssembly Tables and Function References
@@ -28,3 +28,4 @@ Almost every post is going to be practical first so that everyone can understand
 - WebAssembly and Security
 - WebAssembly Ecosystem and Future
 
+You can find code for all the projects we build in this [repository](https://github.com/djhemath/Webassembly-demos)
