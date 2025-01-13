@@ -24,6 +24,10 @@
         }
     }
 
+    #TableOfContents > ul {
+        padding: 0;
+    }
+
     article {
         * {
             word-break: break-word;
@@ -50,6 +54,11 @@
 
         code {
             font-family: courier !important;
+            font-weight: bold;
+        }
+
+        pre > code {
+            font-weight: 400 !important;
         }
 
         blockquote {

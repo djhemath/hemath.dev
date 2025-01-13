@@ -19,6 +19,10 @@
 // TODO: Download the font
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
+* {
+  font-weight: 400;
+}
+
 body {
   font-family: "Lexend", serif;
   font-weight: 400;
