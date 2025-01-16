@@ -8,7 +8,7 @@ excerpt: Learn how to build a simple WebAssembly project from scratch that gener
 
 Hey makkals,
 
-This post is a part of multi-part series on WebAssembly. Checkout other parts [here](/blog/webassembly/webassembly-zero-to-hero)
+This post is a part of a multi-part series on WebAssembly. Check out other parts of the series [here](/blog/webassembly/webassembly-a-beginners-guide)
 
 Have you ever heard about WebAssembly and thought, "That sounds cool, but it’s probably too complex for me"?
 
@@ -169,7 +169,7 @@ Hexadecimal is a number system with base 16. It means, the number system contain
 
 Here, A = 10, B = 11 and so on..
 
-![Hexadecimal representation](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fhexadecimal.png?alt=media&token=e51d22be-a901-4746-a566-3f8c597980b3)
+![Hexadecimal representation](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fhexadecimal.png?alt=media&token=908d1955-f6e3-4ec2-8ee1-e6575beb6379)
 
 
 We can use hex code to represent colors with six digits. For example, #FF5733 or #42A5F5

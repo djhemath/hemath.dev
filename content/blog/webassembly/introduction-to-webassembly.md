@@ -8,7 +8,7 @@ excerpt: Learn what WebAssembly (WASM) is and how it brings near-native performa
 
 Hey makkals,
 
-This post is a part of multi-part series on WebAssembly. Checkout other parts [here](/blog/webassembly/webassembly-zero-to-hero)
+This post is a part of a multi-part series on WebAssembly. Check out other parts of the series [here](/blog/webassembly/webassembly-a-beginners-guide)
 
 WebAssembly, or WASM for short, is a low-level assembly-like language. It lets us run applications built with different programming languages in the browser. It's a truly cross-platform way to build applications. It is low-level so that it runs at near-native speed enabling us to do a lot more on the web that weren't possible with just JavaScript.
 
@@ -42,7 +42,7 @@ This in-turn produces following binary,
 
 > NOTE: The above output varies on the CPU architecture. It's just a simple example that helps you understand the idea.
 
-![](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fc-compilation-binary.png?alt=media&token=99753eb0-168b-49c3-806a-ba36e0f355c5)
+![](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fc-compilation-binary.png?alt=media&token=1c3ce3b5-f965-4685-a8fc-1eacc759cd18)
 
 We can see that the C code is transformed into Assembly code and further into binary. The binary is something that can be executed directly by the computer.
 
@@ -61,7 +61,7 @@ set $c = add $a $b
 
 > NOTE: This is a made up syntax to let you understand the idea easily. It's not a standard syntax for anything in the world of WASM. We will see the actual syntax of WASM in this post later.
 
-![](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fc-compilation-wasm.png?alt=media&token=eb1078fd-3071-4601-aed7-4a30a2aa5a60)
+![](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fc-compilation-wasm.png?alt=media&token=d2c7201f-b887-44bc-8d7f-e9dd1df2620f)
 
 Assume that all browsers (Chrome, Firefox, Safari, etc.) understand and execute the above syntax. Then this opens up a wide-variety of opportunities for us on the web.
 
@@ -114,8 +114,6 @@ So when we do, `get_local $a` and `get_local $b`, we are pushing both of them in
 - keep the result of addition in the stack (in our example, it's the number 3)
 
 And the `set_local $c` tells it to store whatever the value is in top of the stack to the variable `$c`.
-
-> NOTE: There is actually even more stuff happening behind the scenes. We will see about them later in this series.
 
 This is the textual representation (WAT) representation of the code. When transpiled into WASM, it looks like this:
 

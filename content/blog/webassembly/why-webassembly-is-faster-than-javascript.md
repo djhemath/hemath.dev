@@ -6,12 +6,16 @@ type: blog
 excerpt: Discover why WebAssembly often outperforms JavaScript and how it achieves faster execution by leveraging its design advantages.
 ---
 
+Hey makkals,
+
+This post is a part of a multi-part series on WebAssembly. Check out other parts of the series [here](/blog/webassembly/webassembly-a-beginners-guide)
+
 Alright, you might now be wondering why exactly WebAssembly is faster than JavaScript. And that's the question we are gonna answer in this post.
 
 ## How is JavaScript executed?
 Before we can understand how WebAssembly is faster, we need to understand how JavaScript is executed under the hood. Take a look at the following diagram.
 
-![Steps involved in the execution of JavaScript](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fjs-execution.png?alt=media&token=29d8797c-f2ad-4444-b8a7-ec004d49b29e)
+![Steps involved in the execution of JavaScript](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fjs-execution.png?alt=media&token=aeef53a2-0a7a-4bcd-a761-27a5d71adb54)
 
 The above chart explains the steps involved in executing JavaScript code. Each bar represents the relative time taken between each process.
 
