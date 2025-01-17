@@ -1,7 +1,7 @@
 ---
 title: Build your first webassembly project
-date: '2025-01-14T09:00:00.000Z'
-draft: true
+date: '2025-01-21T09:00:00.000Z'
+draft: false
 type: blog
 excerpt: Learn how to build a simple WebAssembly project from scratch that generates random hexadecimal color codes.
 ---

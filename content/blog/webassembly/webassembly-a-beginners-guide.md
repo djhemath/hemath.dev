@@ -1,9 +1,9 @@
 ---
 title: WebAssembly - a beginners guide
-date: '2025-01-13T09:00:00.000Z'
-draft: true
+date: '2025-01-20T09:00:00.000Z'
+draft: false
 type: blog
-excerpt: EXCERPT NEED TO BE WRITTEN
+excerpt: Join me on a journey through WebAssembly in this practical-first blog series. From building your first WebAssembly project to understanding its components, I’ll guide you step-by-step. Check out the repository for hands-on demos and examples!
 ---
 
 Hello makkals,
@@ -16,7 +16,7 @@ Almost every post is going to be practical-first so that everyone can understand
 
 - [Introduction to WebAssembly](/blog/webassembly/introduction-to-webassembly)
 - [Build your first ever WebAssembly project](/blog/webassembly/build-your-first-webassembly-project)
-- [Why WebAssembly is fast](/blog/webassembly/why-webassembly-is-faster-than-javascript)
+- [Why WebAssembly is faster than JavaScript](/blog/webassembly/why-webassembly-is-faster-than-javascript)
 - [Components of WebAssembly](/blog/webassembly/components-of-webassembly)
 - Building a simple image processor using WebAssembly
 - Building a video to gif convertor using WebAssembly

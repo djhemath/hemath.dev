@@ -1,7 +1,7 @@
 ---
 title: Why WebAssembly is faster than JavaScript
-date: '2025-01-15T09:00:00.000Z'
-draft: true
+date: '2025-01-22T09:00:00.000Z'
+draft: false
 type: blog
 excerpt: Discover why WebAssembly often outperforms JavaScript and how it achieves faster execution by leveraging its design advantages.
 ---
