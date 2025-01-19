@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} | {{ .CurrentSection.Title }}{{ end }}</title>
     {{ $style := resources.Get "scss/styles.scss" | toCSS | minify }}
@@ -11,6 +13,7 @@
     <meta name="author" content="Hemath" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="robots" content="index, follow" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
     {{ if eq .Kind "home" }}
     <!-- For home page -->
