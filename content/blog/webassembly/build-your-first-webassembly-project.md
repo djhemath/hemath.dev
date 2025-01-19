@@ -10,6 +10,7 @@ keywords:
 - WebAssembly beginner project
 - How to build simple Webassembly project
 - Simple webassembly project
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-build-your-first-webassembly-project.png?alt=media&token=4f24e57b-fb82-41bc-883a-8ed04358a70a
 ---
 
 Hey makkals,

@@ -11,6 +11,7 @@ keywords:
 - WebAssembly guide
 - WebAssembly for beginners
 - WebAssembly performance
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-webassembly-a-beginners-guide.png?alt=media&token=3c1efb33-6095-4c77-896a-ededc96a9968
 ---
 
 Hello makkals,

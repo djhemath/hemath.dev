@@ -12,6 +12,7 @@ keywords:
 - Simple webassembly project
 - WebAssembly real life project
 - Real life project in WebAssembly
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-building-an-image-processor-with-webassembly.png?alt=media&token=4d0d19ce-6039-4788-83ba-82f4839ea334
 ---
 
 Hey makkals,

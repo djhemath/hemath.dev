@@ -12,6 +12,7 @@ keywords:
 - WebAssembly memory model
 - WebAssembly tables explained
 - WebAssembly beginner guide
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-components-of-webassembly.png?alt=media&token=9101bbf9-6f4c-4170-a589-b0752144c4b6
 ---
 
 Hey makkals,

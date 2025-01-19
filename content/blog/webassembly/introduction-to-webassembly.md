@@ -11,6 +11,7 @@ keywords:
 - WebAssembly use cases
 - WebAssembly tutorial
 - WebAssembly simplified
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-introduction-to-webassembly.png?alt=media&token=8fb9122b-99e1-44c1-b5c8-179444b458fc
 ---
 
 Hey makkals,

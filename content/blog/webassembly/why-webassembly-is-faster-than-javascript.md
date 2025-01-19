@@ -10,6 +10,7 @@ keywords:
 - WebAssembly execution process
 - Why WebAssembly is faster
 - WebAssembly blog series
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-why-webassembly-is-faster-than-javascript.png?alt=media&token=e7bc7f8f-e8ba-4c07-be4d-9c231b94b1e6
 ---
 
 Hey makkals,

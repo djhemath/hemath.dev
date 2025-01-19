@@ -13,6 +13,7 @@ keywords:
 - Webassembly ffmpeg
 - Webassembly video to gif
 - Webassembly library project
+og_image: https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fog-building-a-video-to-gif-converter-with-ffmpeg.wasm.png?alt=media&token=0a8ecd1d-4ed4-46a4-9cab-b96ee5b83cc0
 ---
 Hey makkals,
 
