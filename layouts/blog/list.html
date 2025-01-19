@@ -2,6 +2,12 @@
 <main id="blogs">
   <h1>Hemath's Blog ☘️</h1>
   {{ range .Pages }}
+    {{ if eq .Params.is_index true }}
+      {{ range .Pages }}
+        {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink) }}
+        <div class="divider-rule"></div>
+      {{ end }}
+    {{ end}}
     {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink) }}
     <div class="divider-rule"></div>
   {{ end }}
