@@ -3,6 +3,11 @@
     "title": "Hemath - Software engineer",
     "language": "en-us",
     "markup": {
+      "goldmark": {
+         "renderer": {
+            "unsafe": true
+         }
+      },
       "highlight": {
          "anchorLineNos": false,
          "codeFences": true,
