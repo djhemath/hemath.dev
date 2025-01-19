@@ -29,6 +29,11 @@ Every color can be represented with 4 values:
 - B - blue
 - A - alpha / opacity
 
+![Example of pixels in an image](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fpixel-image-example.jpg?alt=media&token=19e0c536-1208-4a7e-9209-f0e3e655d040)
+<cite>Image from https://tsumutake.com/photo-quality/chapter1-structure-of-photo</cite>
+
+![Example of color mixing](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fcolor-mix.png?alt=media&token=4185c709-8d93-4f6d-aa34-fbfed50fc24a)
+
 So if we can modify R, G and B values of each and every pixel, we should be able to convert the image into grayscale.
 
 To do that we have to multiply R, G and B with certain values which reduces the [luminance](http://www.workwithcolor.com/color-luminance-2233.htm).
@@ -79,7 +84,7 @@ In this array,
 - fourth element represents A
 
 
->> TODO: Image needed
+![JavaScript Canavas image data structure](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fjs-canvas-image-data-structure.png?alt=media&token=057b6e1a-70d8-44e2-a7be-9672b1868f4a)
 
 To get the image data in JavaScript,
 
@@ -167,7 +172,7 @@ If you look closely enough, this function directly modifies the pointer value in
 
 This is intentional because returning a new array means, we are transmitting data from WASM to JS. And this kind of data transmission is costly and will consumes time. To avoid that we can create a common memory between JavaScript and C++. We will put the image data in the memory and give the pointer to that image data. And the C++ function operates on the data directly.
 
->> TODO: Image needed
+![Sharing memory between JS and WASM](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fsharing-memory-between-wasm-and-js.png?alt=media&token=6be48f4b-389c-42bd-96c2-abcceb987a0c)
 
 Now let's compile the code and generate WASM binary and JavaScript glue-code.
 
