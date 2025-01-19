@@ -5,4 +5,12 @@ draft: false
 type: blog
 excerpt: Index of webassembly posts
 is_index: true
+keywords:
+    - webassembly
+    - WebAssembly tutorial
+    - Learn WebAssembly
+    - WebAssembly for beginners
+    - Getting started with WebAssembly
+    - WebAssembly and C
+    - How to build a WebAssembly project from scratch
 ---

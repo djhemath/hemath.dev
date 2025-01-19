@@ -4,6 +4,12 @@ date: '2025-01-22T09:00:00.000Z'
 draft: false
 type: blog
 excerpt: Discover why WebAssembly often outperforms JavaScript and how it achieves faster execution by leveraging its design advantages.
+keywords:
+- WebAssembly performance
+- JavaScript vs WebAssembly
+- WebAssembly execution process
+- Why WebAssembly is faster
+- WebAssembly blog series
 ---
 
 Hey makkals,

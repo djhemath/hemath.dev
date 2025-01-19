@@ -4,6 +4,14 @@ date: '2025-01-24T09:00:00.000Z'
 draft: true
 type: blog
 excerpt: Learn how to build a simple image processor application using WebAssembly to convert colorful images to grayscale
+keywords:
+- Webassembly project
+- Webassembly scratch
+- WebAssembly beginner project
+- How to build simple Webassembly project
+- Simple webassembly project
+- WebAssembly real life project
+- Real life project in WebAssembly
 ---
 
 Hey makkals,

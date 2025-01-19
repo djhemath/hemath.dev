@@ -4,6 +4,13 @@ date: '2025-01-20T09:10:00.000Z'
 draft: false
 type: blog
 excerpt: Learn what WebAssembly (WASM) is and how it brings near-native performance to web apps. This post covers its basics, use cases, and how it complements JavaScript. Discover why WASM is transforming modern web development.
+keywords:
+- WebAssembly introduction
+- WASM guide
+- WebAssembly vs JavaScript
+- WebAssembly use cases
+- WebAssembly tutorial
+- WebAssembly simplified
 ---
 
 Hey makkals,

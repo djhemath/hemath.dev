@@ -4,6 +4,12 @@ date: '2025-01-21T09:00:00.000Z'
 draft: false
 type: blog
 excerpt: Learn how to build a simple WebAssembly project from scratch that generates random hexadecimal color codes.
+keywords:
+- Webassembly project
+- Webassembly scratch
+- WebAssembly beginner project
+- How to build simple Webassembly project
+- Simple webassembly project
 ---
 
 Hey makkals,

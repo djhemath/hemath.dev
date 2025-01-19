@@ -4,6 +4,15 @@ date: '2025-01-27T09:00:00.000Z'
 draft: true
 type: blog
 excerpt: Learn how to build a video to gif converter with ffmpeg using webassembly
+keywords:
+- Webassembly project
+- Webassembly scratch
+- WebAssembly beginner project
+- How to build simple Webassembly project
+- Simple webassembly project
+- Webassembly ffmpeg
+- Webassembly video to gif
+- Webassembly library project
 ---
 Hey makkals,
 
