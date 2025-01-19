@@ -3,7 +3,7 @@ title: I finally understood Integral Calculus
 date: '2025-01-03T18:05:00.000Z'
 draft: false
 type: blog
-excerpt: I’ve always struggled with math, but I’ve decided to revisit Calculus to truly understand Machine Learning. It wasn’t easy—had to watch the basics twice and still felt lost. But after a chat with ChatGPT, it finally made sense! Excited to share my perspective on it soon.
+excerpt: I've always struggled with math, but I've decided to revisit Calculus to truly understand Machine Learning. It wasn't easy—had to watch the basics twice and still felt lost. But after a chat with ChatGPT, it finally made sense! Excited to share my perspective on it soon.
 ---
 
 Hello makkals,

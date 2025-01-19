@@ -21,9 +21,9 @@ This post is a part of a multi-part series on WebAssembly. Check out other parts
 
 At this point we have a good amount of working knowledge in WebAssembly. Its time to create something decent enough to understand more about WebAssembly.
 
-In this post, we’ll build an application that converts colorful images to grayscale without using any libraries.
+In this post, we'll build an application that converts colorful images to grayscale without using any libraries.
 
-Here’s a quick preview of the application we’ll build. It takes a colorful image and converts it to grayscale.
+Here's a quick preview of the application we'll build. It takes a colorful image and converts it to grayscale.
 ![Image grayscale application demo](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fimage-processor-demo.gif?alt=media&token=22605eb7-edd2-453f-8219-a31639bfa636)
 
 You can get the source code of this project from this repository - [https://github.com/djhemath/Webassembly-demos/tree/main/grayscale](https://github.com/djhemath/Webassembly-demos/tree/main/grayscale)
@@ -54,7 +54,7 @@ We are going to split the luminance into 3 parts,
 
 **Why these specific numbers?**
 
-These weights reflect the human eye’s sensitivity to different colors:
+These weights reflect the human eye's sensitivity to different colors:
 - **Green** (`0.587`): The human eye is most sensitive to green light, so it has the highest weight.
 - **Red** (`0.299`): The eye is less sensitive to red light, so it has a moderate weight.
 - **Blue** (`0.114`): The eye is least sensitive to blue light, so it has the smallest weight.
@@ -346,4 +346,4 @@ You can get the source code of this project from this repository - [https://gith
 
 Even though we have built an application for a real-life use case, its still a small project. There is a ton of things we can do with WebAssembly. We can use libraries written in other languages within browsers too.
 
-In the next post, we’ll explore how to use the famous [FFmpeg](https://www.ffmpeg.org) library (written in C++) to create a video-to-GIF converter. Stay tuned!
+In the next post, we'll explore how to use the famous [FFmpeg](https://www.ffmpeg.org) library (written in C++) to create a video-to-GIF converter. Stay tuned!

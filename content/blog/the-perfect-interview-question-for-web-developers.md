@@ -18,12 +18,12 @@ If someone is hiring for a web developer, they can ask one question to the candi
 Explain it as in-depth as possible!
 
 
-This question may sound simple, but it’s deceptively powerful. A strong web developer can break it down into layers, demonstrating knowledge of everything from browser internals to networking, rendering, and security. Let’s dive into what an ideal answer could look like, step by step:
+This question may sound simple, but it's deceptively powerful. A strong web developer can break it down into layers, demonstrating knowledge of everything from browser internals to networking, rendering, and security. Let's dive into what an ideal answer could look like, step by step:
 
 ## 1. DNS Resolution
 
-When you click a link, the browser extracts the domain name (e.g., example.com) from the URL. If the browser doesn’t already have the IP address for this domain cached, it sends a DNS query to resolve the domain to an IP address.
-* If the DNS query isn’t cached locally or by the ISP, the request travels up the DNS hierarchy, starting from root servers.
+When you click a link, the browser extracts the domain name (e.g., example.com) from the URL. If the browser doesn't already have the IP address for this domain cached, it sends a DNS query to resolve the domain to an IP address.
+* If the DNS query isn't cached locally or by the ISP, the request travels up the DNS hierarchy, starting from root servers.
 * Once the IP is resolved, the browser knows where to send the request.
 
 ## 2. TCP Connection and TLS Handshake
@@ -69,9 +69,9 @@ Throughout the process, browsers enforce security measures like:
 
 And many many more layers are involved. It can go upto the tranisistors level in the processor. But just think about it.
 
-This question is a litmus test for understanding the breadth and depth of a developer’s knowledge. A junior developer might focus on the high-level process, while a seasoned engineer will dive into optimizations, edge cases, and even browser quirks.
+This question is a litmus test for understanding the breadth and depth of a developer's knowledge. A junior developer might focus on the high-level process, while a seasoned engineer will dive into optimizations, edge cases, and even browser quirks.
 
-So, next time you’re hiring a web developer or preparing for an interview, keep this question in mind. It’s simple yet effective!
+So, next time you're hiring a web developer or preparing for an interview, keep this question in mind. It's simple yet effective!
 
 Let me know your thoughts by writing me to [hem@hemath.dev](mailto:hem@hemath.dev).
 

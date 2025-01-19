@@ -24,7 +24,7 @@ Ouch! But hey, don't fret too much. Since we're focusing on building components 
 
 And when it comes to packaging our final code for sharing, we can rely on handy bundlers like Webpack or Rollup. In this article, we'll take the simple route and use Rollup because it's easy to set up. 
 
-Let’s start by creating a new directory, cd into it and initialize NPM.
+Let's start by creating a new directory, cd into it and initialize NPM.
 
 
 ```bash
@@ -32,7 +32,7 @@ mkdir awesome-component-library && cd awesome-component-library && npm init
 ```
 
 
-It’s time to install React dependencies and typescript.
+It's time to install React dependencies and typescript.
 
 
 ```bash
@@ -64,7 +64,7 @@ You can even specify a range to these peerDependencies as specified in the [NPM'
 
 ## Setting up TypeScript
 
-It’s straightforward, download necessary packages and create a tsconfig.json
+It's straightforward, download necessary packages and create a tsconfig.json
 
 
 ```bash
@@ -105,7 +105,7 @@ Create a new file in the project root called **tsconfig.json** and paste the fol
 
 ## Setting up Storybook
 
-[Storybook](https://storybook.js.org/) is a development tool that helps us develop and test components in an isolated environment. In its words it’s a frontend workshop and works for almost all frontend technologies.
+[Storybook](https://storybook.js.org/) is a development tool that helps us develop and test components in an isolated environment. In its words it's a frontend workshop and works for almost all frontend technologies.
 
 As we are going to develop reusable components, we can leverage this tool to make our work easy.
 
@@ -137,7 +137,7 @@ Alright, let's keep things simple, shall we? We're going to focus on developing 
 
 Now, I won't bore you with all the nitty-gritty details about the component itself because, hey, that's not what this article is all about. We're here to conquer the publishing world, not dissect buttons! So, let's save our component exploration for another time and dive right into the exciting stuff.
 
-We are going to use 1 external package called **contrast-color**. Let’s install it,
+We are going to use 1 external package called **contrast-color**. Let's install it,
 
 
 ```bash
@@ -269,7 +269,7 @@ rm -rf stories/*
 ```
 
 
-Let’s add one file named **Button.stories.ts** for our Button component and paste the following code.
+Let's add one file named **Button.stories.ts** for our Button component and paste the following code.
 
 
 ```ts
@@ -330,7 +330,7 @@ npm run storybook
 
 
 
-## Let’s bundle it!
+## Let's bundle it!
 
 Alrighty, folks! We've put the finishing touches on our fantastic component, and now it's time to send it off into the wild world of registries like NPM. But wait! Can we just toss it out there without any bundling? Well, technically, we could. But let me tell you, it's not the wisest move. Wanna know why? Well, hop on over to StackOverflow and check out this [answer](https://stackoverflow.com/a/67077006) that spills the beans.
 
@@ -339,7 +339,7 @@ So, here's the plan: we're gonna bundle up our masterpiece and ship it in style.
 
 ## Setting up Rollup
 
-Let’s head straight to the terminal and install a bunch of packages that’ll help us roll-up (bundle) things.
+Let's head straight to the terminal and install a bunch of packages that'll help us roll-up (bundle) things.
 
 
 ```bash
@@ -363,9 +363,9 @@ Whoa, we've got quite the lineup of development tools here! But hey, more tools,
 
 And there you have it! Our magnificent team of development tools, ready to tackle the bundling world and make our lives easier.
 
-Now it’s time to configure the rollup. We can do that by creating a file named **rollup.config.mjs**
+Now it's time to configure the rollup. We can do that by creating a file named **rollup.config.mjs**
 
-Let’s start by importing all of our plugins,
+Let's start by importing all of our plugins,
 
 
 ```js
@@ -563,7 +563,7 @@ Let me explain the bundling process,
 
 The output will be an optimized bundle that can be published to any Node repositories like NPM.
 
-Also let’s add a script to bundle our library.
+Also let's add a script to bundle our library.
 
 
 ```json
@@ -583,7 +583,7 @@ Also let’s add a script to bundle our library.
 Now running **npm run build-lib** in the terminal will remove the existing bundle from the dist/ directory and tell rollup to generate a new bundle.
 
 
-## Let’s publish it!
+## Let's publish it!
 
 Alrighty, let's talk about the wondrous world of NPM before we hit that publish button. NPM has a fancy registry, like a treasure trove of all the packages ever published. It's the place where the magic happens! When we install packages or go on dependency adventures, NPM uses this registry to do its thing, sorting everything out for us. Now, We're gonna bundle up our masterpiece into a neat little tarball, like a gift-wrapped bundle of joy. Then, we'll upload it to the NPM registry, along with some metadata about our creation. And voila! The registry takes over and handles the publishing process for us. It's like having a personal assistant for our package dreams.
 
@@ -634,9 +634,9 @@ npm link project-name
 ```
 
 
-Replace “project-name” with our actual component library. Here it’s **@djhemath/react-typescript-storybook-npm-component**. And test our component(s) by using them in that project. If everything works good, we can rollout it to NPM.
+Replace “project-name” with our actual component library. Here it's **@djhemath/react-typescript-storybook-npm-component**. And test our component(s) by using them in that project. If everything works good, we can rollout it to NPM.
 
-To publish, an NPM account is required. Signup if you don’t already have an account. Then we need to login to NPM from our terminal first to publish our package. Go into the project root and run the following command.
+To publish, an NPM account is required. Signup if you don't already have an account. Then we need to login to NPM from our terminal first to publish our package. Go into the project root and run the following command.
 
 
 ```bash
@@ -644,7 +644,7 @@ npm login
 ```
 
 
-It will open up the browser with a login page. Enter your credentials and log in. Once it’s done, you can close that page and come back to the terminal.
+It will open up the browser with a login page. Enter your credentials and log in. Once it's done, you can close that page and come back to the terminal.
 
 Run the following commands to build and publish the package.
 
@@ -657,7 +657,7 @@ npm publish --access public
 
 Note the **--access public** flag. It tells NPM to publish our package as a public one. We have to add this flag because the type of this package is scoped. No need to do this if the package is public.
 
-Here’s the complete package.json
+Here's the complete package.json
 
 
 ```json

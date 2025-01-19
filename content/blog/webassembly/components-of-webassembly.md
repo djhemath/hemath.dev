@@ -209,5 +209,5 @@ Some of my favourite ones are,
 - MDN's WebAssembly [documentation](https://developer.mozilla.org/en-US/docs/WebAssembly)
 - [WASM by example](https://wasmbyexample.dev/home.en-us.html)
 
-So far, we’ve covered the foundational theory of WebAssembly. Now it's time to build some projects with real values.
+So far, we've covered the foundational theory of WebAssembly. Now it's time to build some projects with real values.
 

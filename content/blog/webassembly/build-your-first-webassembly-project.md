@@ -17,11 +17,11 @@ Hey makkals,
 
 This post is a part of a multi-part series on WebAssembly. Check out other parts of the series [here](/blog/webassembly/webassembly-a-beginners-guide)
 
-Have you ever heard about WebAssembly and thought, "That sounds cool, but it’s probably too complex for me"?
+Have you ever heard about WebAssembly and thought, "That sounds cool, but it's probably too complex for me"?
 
-Well, today you’re going to build a simple WebAssembly project from scratch. Let me set the right expectations. We are going to build a very simple project which generates random hexadecimal color code.
+Well, today you're going to build a simple WebAssembly project from scratch. Let me set the right expectations. We are going to build a very simple project which generates random hexadecimal color code.
 
-Think of it as the “Hello, World!” of WebAssembly with a splash of color. By the end, you’ll learn how to write simple WebAssembly code, compile it, and use it with JavaScript to generate random colors right in your browser.
+Think of it as the “Hello, World!” of WebAssembly with a splash of color. By the end, you'll learn how to write simple WebAssembly code, compile it, and use it with JavaScript to generate random colors right in your browser.
 
 ## Setup WebAssembly
 In this blog post series, we will be using C and C++ for examples. So we will be using a tool called `Emscripten` to compile our C / C++ code to WASM. However, you can use any supported language with the respective compiling tools.
@@ -317,8 +317,8 @@ It's totally okay if don't understand how we get the color from pointer and how 
 You can find the full code for this project - [here](https://github.com/djhemath/Webassembly-demos/tree/main/random-color-generator)
 
 ## Conclusion
-In this post, we’ve taken our first steps in  WebAssembly by writing simple C code, compiling it into WASM using Emscripten, and integrating it with JavaScript to build a functional random color generator. While this project is just the beginning, it shows the power and flexibility of WebAssembly in bringing high-performance code to the web.
+In this post, we've taken our first steps in  WebAssembly by writing simple C code, compiling it into WASM using Emscripten, and integrating it with JavaScript to build a functional random color generator. While this project is just the beginning, it shows the power and flexibility of WebAssembly in bringing high-performance code to the web.
 
-With WebAssembly, you can unlock new possibilities for building faster, more efficient web applications. In future posts, we’ll explore more advanced use cases, like image processing, to further understand how WebAssembly can enhance performance and extend JavaScript’s capabilities.
+With WebAssembly, you can unlock new possibilities for building faster, more efficient web applications. In future posts, we'll explore more advanced use cases, like image processing, to further understand how WebAssembly can enhance performance and extend JavaScript's capabilities.
 
 Stay tuned for more hands-on examples and deeper dives into WebAssembly

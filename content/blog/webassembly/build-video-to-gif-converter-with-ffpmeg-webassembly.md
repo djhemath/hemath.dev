@@ -27,7 +27,7 @@ So, let's build an application that converts a video to GIF all without leaving 
 
 >> NOTE: We are not going to compile the FFMPEG library in this post. We would rather use a pre-compiled version which is widely adopted in the industry
 
-Here’s a quick preview of the application we’ll build.
+Here's a quick preview of the application we'll build.
 ![Video to GIF converter application demo](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fwebassembly-video-to-gif-converter-demo.gif?alt=media&token=ee6f4cad-4e8c-40f9-abcd-d735baf16205)
 
 ## Setup
@@ -124,7 +124,7 @@ const fileBuffer = await readFilePromise;
 The glue code we imported manages memory under the hood for us. So we can just pass the usual typed integer array of data and the remaining will be taken care of automatically.
 
 
-FFmpeg has its own internal file system. To process a file, we first need to write it into FFmpeg’s virtual file system, after which we can perform operations on it.
+FFmpeg has its own internal file system. To process a file, we first need to write it into FFmpeg's virtual file system, after which we can perform operations on it.
 
 Luckily for us, the glue-code gives us a method `writeFile` to do exactly that.
 

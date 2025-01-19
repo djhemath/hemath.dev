@@ -20,7 +20,7 @@ This post is a part of a multi-part series on WebAssembly. Check out other parts
 
 WebAssembly, or WASM for short, is a low-level assembly-like language. It lets us run applications built with different programming languages in the browser. It's a truly cross-platform way to build applications. It is low-level so that it runs at near-native speed enabling us to do a lot more on the web that weren't possible with just JavaScript.
 
-If you’ve ever wished your web apps could run faster or handle tasks that seem too heavy for JavaScript, WebAssembly is here to help. In this post, we’ll break down what WebAssembly is, why it was created, and how you can start using it.
+If you've ever wished your web apps could run faster or handle tasks that seem too heavy for JavaScript, WebAssembly is here to help. In this post, we'll break down what WebAssembly is, why it was created, and how you can start using it.
 
 
 ## What is WebAssembly actually?
@@ -132,7 +132,7 @@ This is the textual representation (WAT) representation of the code. When transp
 0x21 0x02    ;; set_local $c
 ```
 
-Don’t worry if these representations seem complex. WebAssembly is designed as a compilation target, not a language you need to write directly.
+Don't worry if these representations seem complex. WebAssembly is designed as a compilation target, not a language you need to write directly.
 
 This is a compilation-target, not a programming language per se. Almost all the time we will write code in programming languages like C, C++, Rust, etc., and compile it into this representation.
 
@@ -150,7 +150,7 @@ Let's say we want to process video files. Video files are generally large, and d
 But with WebAssembly, we can achieve **near-native** performance since the code is pre-compiled and close to machine code, the execution will be pretty fast. So WebAssembly is just a new gym-rat friend for JavaScript. WebAssembly can do the heavy-lifting CPU intensive tasks very well while JavaScript can do the tasks (DOM manipulations, handling events) it was supposed to do.
 
 ## Use cases of WebAssembly
-WebAssembly’s near-native performance makes it ideal for computationally intensive applications.
+WebAssembly's near-native performance makes it ideal for computationally intensive applications.
 
 Some of the use cases are,
 1. Image processing

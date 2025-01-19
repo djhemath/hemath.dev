@@ -3,19 +3,19 @@ title: 2024 - Q1 - a lookback
 date: '2024-12-27T22:50:00.000Z'
 draft: false
 type: blog
-excerpt: Q1 of 2024 was filled with surprises and new experiences. From an unforgettable birthday surprise and an unintentional pre-birthday celebration to a spontaneous trip to Pondicherry and my mom’s first BBQ dinner, these months were all about laughter, exploration, and creating lasting memories.
+excerpt: Q1 of 2024 was filled with surprises and new experiences. From an unforgettable birthday surprise and an unintentional pre-birthday celebration to a spontaneous trip to Pondicherry and my mom's first BBQ dinner, these months were all about laughter, exploration, and creating lasting memories.
 ---
 
 Hey folks,
 
-Q1 of 2024 was filled with surprises and new experiences. From an unforgettable birthday surprise and an unintentional pre-birthday celebration to a spontaneous trip to Pondicherry and my mom’s first BBQ dinner, these months were all about laughter, exploration, and creating lasting memories.
+Q1 of 2024 was filled with surprises and new experiences. From an unforgettable birthday surprise and an unintentional pre-birthday celebration to a spontaneous trip to Pondicherry and my mom's first BBQ dinner, these months were all about laughter, exploration, and creating lasting memories.
 
 ## January
 Started with a great birthday which I ever had. A surprised visit of Sai, Ramya and Ragav in the middle of the night with a cake was insane. I never got such suriprise birthdays.
 
-And one of my good friends, also a sister "Rij" brought me a cake for my birthday. But she forgot the actual date and ended up visiting me a day before my birthday. It’s kind of a new experience to cut my birthday cake before a day. Her face when she realized that Jan 20 isn’t my birthday was funny.
+And one of my good friends, also a sister "Rij" brought me a cake for my birthday. But she forgot the actual date and ended up visiting me a day before my birthday. It's kind of a new experience to cut my birthday cake before a day. Her face when she realized that Jan 20 isn't my birthday was funny.
 
-She brought a birthday hat, it’s my first time having one.
+She brought a birthday hat, it's my first time having one.
 
 ![Picture of Hemath with birthday hat bought by Rij](/images/2024-lookback/hemath-with-birthday-cap-min.jpg)
 

@@ -17,7 +17,7 @@ So, I was itching to craft something meaningful, something that would keep me on
 
 Determined to avoid the rabbit hole of crafting ornate design systems and deep-diving into human psychology to craft the world's best blog, I kept things straightforward. The design? A single, unpretentious page, listing all my blog entries.
 
-My mission: leverage the power of NextJS to craft an improved blog. However, reality struck—I couldn’t afford the luxury of hosting a blog with all the bells and whistles NextJS offers, like next/image and a database. Why break the bank on a blog solely dedicated to my musings and ramblings? So, a zero-cost blog was the target.
+My mission: leverage the power of NextJS to craft an improved blog. However, reality struck—I couldn't afford the luxury of hosting a blog with all the bells and whistles NextJS offers, like next/image and a database. Why break the bank on a blog solely dedicated to my musings and ramblings? So, a zero-cost blog was the target.
 
 Compounding the issue, this was when Heroku did away with their free tiers. Firebase's hosting emerged as my go-to option, limited as it was to static files, perfect for hosting web front-end apps. Hence, a static blog it was to be! Cue, NextJS with its stellar Static Site Generation (SSG) feature.
 

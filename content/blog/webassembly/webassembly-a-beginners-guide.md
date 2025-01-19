@@ -3,7 +3,7 @@ title: WebAssembly - a beginners guide
 date: '2025-01-20T09:00:00.000Z'
 draft: false
 type: blog
-excerpt: Join me on a journey through WebAssembly in this practical-first blog series. From building your first WebAssembly project to understanding its components, I’ll guide you step-by-step. Check out the repository for hands-on demos and examples!
+excerpt: Join me on a journey through WebAssembly in this practical-first blog series. From building your first WebAssembly project to understanding its components, I'll guide you step-by-step. Check out the repository for hands-on demos and examples!
 keywords:
 - WebAssembly
 - WASM tutorial

@@ -8,27 +8,27 @@ excerpt: Designers who designed that good looking page or navbar should first se
 
 ---
 
-Yep, this has been buzzing me for some weeks. I’ve been working with QA teams in multiple projects and heard stories from my developer/manager friends as well.
+Yep, this has been buzzing me for some weeks. I've been working with QA teams in multiple projects and heard stories from my developer/manager friends as well.
 
 Obviously, the QA team should test the UI, but not at first. Designers who designed that good looking page or navbar should first see it in action. Test it. Well, visually test it. Once designers are happy, then it can be moved to the QA team for further tests.
 
 ## Why?
 
-Well, these days many developers I see, don’t even know basic UI principles. One of my friends is a great engineer. He builds awesome stuff, his application can handle multiple websocket connections distributed to worker threads and mak’em communicate properly. He can create a network of connections just inside the browser. He taught me how to properly use **saveLayer** in Flutter to boost the performance. But I checked his portfolio site. Dark green background with yellow text!
+Well, these days many developers I see, don't even know basic UI principles. One of my friends is a great engineer. He builds awesome stuff, his application can handle multiple websocket connections distributed to worker threads and mak'em communicate properly. He can create a network of connections just inside the browser. He taught me how to properly use **saveLayer** in Flutter to boost the performance. But I checked his portfolio site. Dark green background with yellow text!
 
-Yesss! That’s true. Some of you can argue that developers don’t need to have UI skills. Or developers are good at building, not at creativity. The truth is, no. Creativity is not required to adhere to some basic rules. You can be a cyclist, you don’t need to use indicators while turning like other advanced vehicles do, but you should know to stop at red lights.
+Yesss! That's true. Some of you can argue that developers don't need to have UI skills. Or developers are good at building, not at creativity. The truth is, no. Creativity is not required to adhere to some basic rules. You can be a cyclist, you don't need to use indicators while turning like other advanced vehicles do, but you should know to stop at red lights.
 
-Basic stuff like contrast, spacing (and white spaces), basic typography, visual hierarchy, instant feedback (like spinners, validation messages). These are very basic stuff. In my opinion, every developer must know these. Whether you’re a great poet or not, you should know to leave a blank line between every paragraph, or make titles uppercase/bold.
+Basic stuff like contrast, spacing (and white spaces), basic typography, visual hierarchy, instant feedback (like spinners, validation messages). These are very basic stuff. In my opinion, every developer must know these. Whether you're a great poet or not, you should know to leave a blank line between every paragraph, or make titles uppercase/bold.
 
-Obviously, students coming out from college don’t need to know this stuff, but a developer with at least 1 year under their belt should know this.
+Obviously, students coming out from college don't need to know this stuff, but a developer with at least 1 year under their belt should know this.
 
-BTW, I’m mentioning front-end developers.
+BTW, I'm mentioning front-end developers.
 
 ## How?
 
-To be honest, I never took any course on UX/UX stuff. But some people praised me for my UI skills as a developer. I wondered how that’s even possible. I never took any course or watched a UI playlist.
+To be honest, I never took any course on UX/UX stuff. But some people praised me for my UI skills as a developer. I wondered how that's even possible. I never took any course or watched a UI playlist.
 
-As I was thinking this and questioning myself during a train trip, a pattern emerged. Most of you may know that I’m from a solid startup culture. I’ve been in 3 startups before jumping to corporate.
+As I was thinking this and questioning myself during a train trip, a pattern emerged. Most of you may know that I'm from a solid startup culture. I've been in 3 startups before jumping to corporate.
 
 All these startups had like 4 or 5 people maximum including CxOs. But there was a designer in all these startups and I worked closely with designers. In fact, the CEO of the last startup that I worked with is a designer basically.
 
@@ -52,7 +52,7 @@ But in most corporates, I see that,
 
 This cycle goes until both the design doc and the UI built by developers matches.
 
-But when it goes to production, designers tend to realise that they should’ve used a dropdown instead of radio buttons. What now? Repeat above steps.
+But when it goes to production, designers tend to realise that they should've used a dropdown instead of radio buttons. What now? Repeat above steps.
 
 Do you see, nobody except designers know the reason behind every element in the screen.
 
@@ -72,9 +72,9 @@ This way QA team also can learn by questioning designers.
 
 ## Final thoughts
 
-Yep, most corporates have an inbuilt course that covers basic UI principles. Some make it optional, where others make it mandatory. But who is teaching this course? 8/10 times - not a designer. Trust me, I’ve heard from many people that project managers, system engineers and other people who are NOT fundamentally designers are imparting these UI principles.
+Yep, most corporates have an inbuilt course that covers basic UI principles. Some make it optional, where others make it mandatory. But who is teaching this course? 8/10 times - not a designer. Trust me, I've heard from many people that project managers, system engineers and other people who are NOT fundamentally designers are imparting these UI principles.
 
-Yeah, it’s not bad for others to teach UI principles. But they should know these principles by-heart. When a WHY question comes, they should have multiple answers, use cases and different perspectives to answer that question.
+Yeah, it's not bad for others to teach UI principles. But they should know these principles by-heart. When a WHY question comes, they should have multiple answers, use cases and different perspectives to answer that question.
 
 Who is best at that? Obviously, designers.
 
@@ -84,6 +84,6 @@ So bringing designers into the process of analysing the quality will improve the
 
 And yeah, this mental model is purely built with my experience. There could be a whole another perspective.
 
-*Please correct me if I’m wrong*,
+*Please correct me if I'm wrong*,
 
 *Hemath Kumar*
