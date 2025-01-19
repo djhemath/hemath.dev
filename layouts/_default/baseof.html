@@ -15,7 +15,7 @@
     {{ if eq .Kind "home" }}
     <!-- For home page -->
     <meta name="description" content="An unorthodox software engineer who lives to craft world class software applications and mentor students." />
-    <meta name="keywords" content="Software Engineer, Software Engineer in Chennai, Best software engineer in chennai, React developer, JavaScript developer, TypeScript developer, NodeJS developer, Fullstack developer, Python developer" />
+    <meta name="keywords" content="DJ Hemath, djhemath, Software Engineer, Software Engineer in Chennai, Best software engineer in chennai, React developer, JavaScript developer, TypeScript developer, NodeJS developer, Fullstack developer, Python developer" />
 
     <meta property="og:title" content="Hemath - Software Engineer" />
     <meta property="og:description" content="An unorthodox software engineer who lives to craft world class software applications and mentor students." />
@@ -35,12 +35,12 @@
 
     {{ if eq .Type "blog" }}
     <!-- For blog posts -->
-    <meta name="description" content="{{ .Params.excerpt }}" />
-    <meta name="keywords" content="{{ range .Keywords }}{{ . }},{{ end }}hemath" />
+    <meta name="description" content="{{ .Params.excerpt | safeHTML }}" />
+    <meta name="keywords" content="{{ range .Keywords }}{{ . | safeHTML }},{{ end }}hemath" />
 
     <!-- Open Graph Meta Tags for social sharing -->
-    <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:description" content="{{ .Params.excerpt }}" />
+    <meta property="og:title" content="{{ .Title | safeHTML }}" />
+    <meta property="og:description" content="{{ .Params.excerpt | safeHTML }}" />
 
     {{if (isset .Params "og_image")}}
     <meta property="og:image" content="{{ .Params.og_image | safeHTML }}" />
@@ -53,8 +53,8 @@
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ .Title }}" />
-    <meta name="twitter:description" content="{{ .Params.excerpt }}" />
+    <meta name="twitter:title" content="{{ .Title | safeHTML }}" />
+    <meta name="twitter:description" content="{{ .Params.excerpt | safeHTML }}" />
     {{if (isset .Params "og_image")}}
     <meta name="twitter:image" content="{{ .Params.og_image | safeHTML }}" />
     {{else if (isset .Params "hero_image")}}
