@@ -1,7 +1,7 @@
 ---
 title: Building a like and comment react component - Part 2
 date: '2023-07-15T16:00:00.000Z'
-draft: false
+draft: true
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fbuilding-a-like-and-comment-react-component-part2.webp?alt=media&token=9c5da924-3d88-46ed-a88c-ef1dac0716cb
 excerpt: As planned, I completed the POC on publishing a React component to NPM along with Storybook setup. Sharing my experience on doing this POC.

@@ -1,7 +1,7 @@
 ---
 title: Building a like and comment react component - Part 1
 date: '2023-06-26T14:00:00.000Z'
-draft: false
+draft: true
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fnew-project-opt1.jpg?alt=media&token=a57d6357-d4f3-4724-a557-58243c6f1446
 excerpt: Diving into a project to build a React-based 'like and comment' system for my NextJS blog. This journey explores creating an NPM-installable React component and integrating it into the blog.
