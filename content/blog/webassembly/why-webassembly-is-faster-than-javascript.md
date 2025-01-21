@@ -49,7 +49,7 @@ In this step, unused memory will be cleaned up by the built-in garbage collector
 ## How is WebAssembly executed?
 After downloading the WASM file, it goes through only 3 steps instead of 5 steps.
 
-![Steps involved in the execution of WebAssembly](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fwasm-execution.png?alt=media&token=b82b650d-dbea-4a51-9970-ec66c995c326)
+![Steps involved in the execution of WebAssembly](https://firebasestorage.googleapis.com/v0/b/djhemath-site.firebasestorage.app/o/blogs%2Fwebassembly%2Fwasm-execution.png?alt=media&token=672bfee5-ee98-4f47-9521-1ae222b3df28)
 
 ### Decode
 Similar to parsing JavaScript. But WASM doesn't need to be converted into any structures. So after decoding, the integrity of the module is validated. After the validation, the WASM is ready to be executed.
