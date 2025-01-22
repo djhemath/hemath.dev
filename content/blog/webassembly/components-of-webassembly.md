@@ -2,7 +2,6 @@
 title: Components of WebAssembly
 date: '2025-01-23T09:00:00.000Z'
 draft: false
-draft: true
 type: blog
 excerpt: Explore the core components of WebAssembly, including modules, execution environments, and memory models. This post simplifies complex concepts with clear examples, helping you understand how WebAssembly works.
 keywords:
