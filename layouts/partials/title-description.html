@@ -16,5 +16,8 @@
         </svg>
             
     </a>
+    {{ if (isset . "date") }}
+    <time datetime="{{.date}}">{{ .date.Format "Mon Jan 2, 2006" }}</time>
+    {{ end }}
     <p class="description">{{ .description }}</p>
 </div>

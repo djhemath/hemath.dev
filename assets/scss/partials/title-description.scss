@@ -23,4 +23,14 @@
         font-weight: 200;
         color: map-get(map-get($color-palette, grey), medium);
     }
+
+    time {
+        display: inline-block;
+        font-size: 14px;
+        color: map-get($color-palette, white);
+        margin-top: 8px;
+        background-color: map-get($color-palette, primary);
+        padding: 2px 5px;
+        border-radius: 3px;
+    }
 }

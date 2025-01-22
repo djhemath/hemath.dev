@@ -4,11 +4,11 @@
   {{ range .Pages }}
     {{ if eq .Params.is_index true }}
       {{ range .Pages }}
-        {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink) }}
+        {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink "date" .Params.Date) }}
         <div class="divider-rule"></div>
       {{ end }}
     {{ end}}
-    {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink) }}
+    {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink "date" .Params.Date) }}
     <div class="divider-rule"></div>
   {{ end }}
 </main>
