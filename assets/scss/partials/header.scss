@@ -31,6 +31,19 @@ header {
                 color: map-get($color-palette, primary);
             }
         }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .rss-icon {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                font-family: "Mynerve", serif;
+            }
+        }
     }
 }
 
@@ -158,8 +171,25 @@ header .social-links {
     }
 }
 
+
+@media only screen and (max-width: 550px) {
+    .rss-icon {
+        position: absolute;
+        bottom: 82px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 @media only screen and (max-width: 390px) {
     .social-links {
         justify-content: space-around;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .rss-icon {
+        bottom: 120px;
     }
 }

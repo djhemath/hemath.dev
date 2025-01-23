@@ -8,7 +8,11 @@
     <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} | {{ .CurrentSection.Title }}{{ end }}</title>
     {{ $style := resources.Get "scss/styles.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    
+    <link rel="alternate" title="Subscribe to Hemath's blog" type="application/rss+xml" title="RSS" href="/index.xml" />
 
     <meta name="author" content="Hemath" />
     <meta name="theme-color" content="#ffffff" />
