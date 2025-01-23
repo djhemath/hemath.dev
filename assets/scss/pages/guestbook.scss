@@ -46,7 +46,6 @@ main#guestbook-page {
         border: 1px solid #CCC;
         border-radius: 5px;
         padding: 15px;
-        width: 100%;
         margin-bottom: 12px;
     }
 
@@ -58,6 +57,7 @@ main#guestbook-page {
 
     #sign-form {
         display: none;
+        flex-direction: column;
     }
 
     .guestbook-messages {

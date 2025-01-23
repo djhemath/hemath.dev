@@ -57,7 +57,7 @@ function main() {
                 }
 
                 const signForm = document.getElementById('sign-form');
-                signForm.style.display = 'block';
+                signForm.style.display = 'flex';
 
                 const signButtonContainer = document.getElementById('sign-buttons-container');
                 signButtonContainer.style.display = 'none';
