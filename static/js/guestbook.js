@@ -24,8 +24,7 @@ function main() {
 
 
     githubButton.addEventListener('click', async () => {
-        console.log('open github login');
-        // TODO: Loading animation
+        githubButton.setAttribute('data-loading', 'true');
 
         const auth = getAuth();
 
@@ -43,11 +42,11 @@ function main() {
             if(user) {
                 const { uid, displayName, email, photoURL, providerData } = user;
 
-                // TODO: Add timestamp
                 userData = {
                     id: uid,
                     name: displayName,
                     email: email,
+                    timestamp: Date.now(),
                 }
 
                 let providerId = null;
@@ -69,7 +68,7 @@ function main() {
             console.log('Something went wrong!!', err);
             // TODO: Handle error with a toast
         } finally {
-            // TODO: Stop loading animation
+            githubButton.setAttribute('data-loading', 'false');
         }
         
     });
@@ -95,16 +94,30 @@ async function signGuestbook(payload) {
     const db = getFirestore(app);
     const guestSignatureCollection = collection(db, "guestSignatures");
 
-    try {
-        // TODO: Loading animation
-        const signatureRef = await addDoc(guestSignatureCollection, payload);
+    const signButton = document.getElementById('sign-btn');
+    signButton.setAttribute('data-loading', 'true');
 
-        // TODO: Automatically add to the message list
+    try {
+        await addDoc(guestSignatureCollection, payload);
+
+        const guestMessagesContainer = document.querySelector('.guestbook-messages')
+        
+
+        const guestMessage = createMessageElement(payload.name, payload.message);
+        guestMessagesContainer.prepend(guestMessage);
+        guestMessage.classList.add('highlight');
+
+        const signForm = document.getElementById('sign-form');
+        signForm.style.display = 'none';
+
+        // TODO: Save some sort of token to track whether the user signed previously or not
+        // TODO: Also make this check in the firebase functions
+
     } catch(err) {
         console.log(err);
         // TODO: Handle error with a toast
     } finally {
-        // TODO: Stop loading animation
+        signButton.setAttribute('data-loading', 'false');
     }
 }
 
@@ -112,42 +125,54 @@ async function getSignatures() {
     const db = getFirestore(app);
     const guestSignatureCollection = collection(db, "guestSignatures");
 
+    const messagesElement = document.querySelector('.guestbook-messages');
+
+    messagesElement.setAttribute('data-loading', 'true');
+
     try {
-        // TODO: Loading animation
         // TODO: Sort by time ascending
         const snapshot = await getDocs(query(guestSignatureCollection));
     
-        const messagesElement = document.querySelector('.guestbook-messages');
-    
         snapshot.forEach(doc => {
             const signature = doc.data();
+            const guestMessage = createMessageElement(signature.name, signature.message);
     
             console.log(signature);
-            
-            const guestMessage = document.createElement('div');
-            guestMessage.classList.add('guest-message');
-    
-            const nameElement = document.createElement('a');
-            nameElement.innerHTML = `${signature.name}:`;
-    
-            const message = document.createElement('p');
-            
-            if(signature.message) {
-                message.innerText = signature.message;
-            } else {
-                message.innerText = 'Signing your Guestbook!';
-            }
-    
-            guestMessage.appendChild(nameElement);
-            guestMessage.appendChild(message);
     
             messagesElement.appendChild(guestMessage);
         });
     } catch(err) {
         // TODO: Handle error with a toast
     } finally {
-        // TODO: Stop loading animation
+        document.getElementById('signature-heading').style.marginBottom = '36px'
+        messagesElement.setAttribute('data-loading', 'false');
     }
+}
+
+function createMessageElement(name = '', message = '') {
+    const guestMessage = document.createElement('div');
+    guestMessage.classList.add('guest-message');
+
+    const nameElement = document.createElement('a');
+
+    if(name) {
+        nameElement.innerHTML = `${name}:`;
+    } else {
+        nameElement.innerHTML = `Anonymous:`;
+    }
+
+    const messageElement = document.createElement('p');
+    
+    if(message) {
+        messageElement.innerText = message;
+    } else {
+        messageElement.innerText = 'Signing your Guestbook!';
+    }
+
+    guestMessage.appendChild(nameElement);
+    guestMessage.appendChild(messageElement);
+
+    return guestMessage;
 }
 
 document.addEventListener('DOMContentLoaded', main);

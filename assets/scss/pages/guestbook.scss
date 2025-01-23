@@ -9,11 +9,37 @@ main#guestbook-page {
         color: white;
         padding: 10px 15px;
         border-radius: 3px;
+        min-width: 160px;
+        min-height: 44px;
 
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 8px;
+
+        .loader {
+            display: none;
+        }
+
+        &[data-loading="true"] {
+            svg, span {
+                display: none;
+            }
+
+            .loader {
+                display: block;
+            }
+        }
+
+        &[data-loading="false"] {
+            svg, span {
+                display: initial;
+            }
+
+            .loader {
+                display: none;
+            }
+        }
     }
 
     input {
@@ -21,6 +47,7 @@ main#guestbook-page {
         border-radius: 5px;
         padding: 15px;
         width: 100%;
+        margin-bottom: 12px;
     }
 
     .github-btn {
@@ -36,17 +63,54 @@ main#guestbook-page {
     .guestbook-messages {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+
+        .glitchytextloader {
+            display: none;
+        }
+
+        &[data-loading="true"] {
+            .guest-message {
+                display: none;
+            }
+
+            .glitchytextloader {
+                display: inline-grid;
+            }
+        }
+
+        &[data-loading="false"] {
+            .guest-message {
+                display: flex;
+            }
+
+            .glitchytextloader {
+                display: none;
+            }
+        }
 
         .guest-message {
             display: flex;
             align-items: center;
             gap: 8px;
+            padding: 12px 0;
 
             p {
                 margin: 0;
                 font-weight: 200;
             }
+
+            &.highlight {
+                animation: highlight 1s ease-out;
+            }
         }
     }
 }
+
+@keyframes highlight {
+    0% {
+      background-color: map-get($color-palette, primary);
+    }
+    100% {
+      background-color: white;
+    }
+  }
