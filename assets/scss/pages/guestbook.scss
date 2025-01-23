@@ -1,0 +1,52 @@
+main#guestbook-page {
+    max-width: 600px;
+    margin: auto;
+
+    .btn {
+        cursor: pointer;
+        border: none;
+        background-color: #222222;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 3px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    input {
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .github-btn {
+        &:hover {
+            background-color: #333333;
+        }
+    }
+
+    #sign-form {
+        display: none;
+    }
+
+    .guestbook-messages {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .guest-message {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            p {
+                margin: 0;
+                font-weight: 200;
+            }
+        }
+    }
+}
