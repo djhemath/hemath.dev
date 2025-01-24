@@ -1,7 +1,7 @@
 ---
 title: Build an image processor application with webassembly
 date: '2025-01-24T09:00:00.000Z'
-draft: true
+draft: false
 type: blog
 excerpt: Learn how to build a simple image processor application using WebAssembly to convert colorful images to grayscale
 keywords:
