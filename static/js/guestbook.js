@@ -62,10 +62,7 @@ function main() {
                 const signButtonContainer = document.getElementById('sign-buttons-container');
                 signButtonContainer.style.display = 'none';
             }
-
-            console.log(user);
         } catch(err) {
-            console.log('Something went wrong!!', err);
             showSnackbar();
         } finally {
             githubButton.setAttribute('data-loading', 'false');
@@ -142,8 +139,6 @@ async function getSignatures() {
         snapshot.forEach(doc => {
             const signature = doc.data();
             const guestMessage = createMessageElement(signature.name, signature.message);
-    
-            console.log(signature);
     
             messagesElement.appendChild(guestMessage);
         });
