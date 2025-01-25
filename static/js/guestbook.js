@@ -1,6 +1,6 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js';
 import { getAuth, GithubAuthProvider, signInWithPopup } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js'
-import { getFirestore, collection, addDoc, query, orderBy, getDocs } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js'
+import { getFirestore, collection, doc, setDoc, query, orderBy, getDocs } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js'
 
 const firebaseConfig = {
     apiKey: "AIzaSyCg_ITJGJDXLlS2rIdeOq1g-Zptd2nKIwI",
@@ -98,13 +98,13 @@ function main() {
 
 async function signGuestbook(payload) {
     const db = getFirestore(app);
-    const guestSignatureCollection = collection(db, "guestSignatures");
+    const guestSignatureDocument = doc(db, "guestSignatures", payload.id);
 
     const signButton = document.getElementById('sign-btn');
     signButton.setAttribute('data-loading', 'true');
 
     try {
-        await addDoc(guestSignatureCollection, payload);
+        await setDoc(guestSignatureDocument, payload);
 
         const guestMessagesContainer = document.querySelector('.guestbook-messages')
         
@@ -118,8 +118,11 @@ async function signGuestbook(payload) {
 
         localStorage.setItem('id', payload.id);
     } catch(err) {
-        console.log(err);
-        showSnackbar();
+        if(err.message === 'Missing or insufficient permissions.') {
+            showSnackbar("You already signed my guest book!");
+        } else {
+            showSnackbar();
+        }
     } finally {
         signButton.setAttribute('data-loading', 'false');
     }
@@ -178,8 +181,9 @@ function createMessageElement(name = '', message = '') {
     return guestMessage;
 }
 
-function showSnackbar() {
+function showSnackbar(message = "Something went wrong!") {
     const x = document.getElementById("snackbar");
+    x.innerText = message;
     x.className = "show";
     setTimeout(function(){ x.className = x.classList.remove('show'); }, 3000);
 }
