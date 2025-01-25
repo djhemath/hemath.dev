@@ -1,6 +1,6 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js';
 import { getAuth, GithubAuthProvider, signInWithPopup } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js'
-import { getFirestore, collection, addDoc, query, getDocs } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js'
+import { getFirestore, collection, addDoc, query, orderBy, getDocs } from 'https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js'
 
 const firebaseConfig = {
     apiKey: "AIzaSyCg_ITJGJDXLlS2rIdeOq1g-Zptd2nKIwI",
@@ -66,7 +66,7 @@ function main() {
             console.log(user);
         } catch(err) {
             console.log('Something went wrong!!', err);
-            // TODO: Handle error with a toast
+            showSnackbar();
         } finally {
             githubButton.setAttribute('data-loading', 'false');
         }
@@ -88,6 +88,12 @@ function main() {
 
         signGuestbook(payload);
     });
+
+    const idFromLocalStorage = localStorage.getItem('id');
+    
+    if(idFromLocalStorage) {
+        document.querySelector('.guestbook-input-container').style.display = 'none';
+    }
 }
 
 async function signGuestbook(payload) {
@@ -110,12 +116,10 @@ async function signGuestbook(payload) {
         const signForm = document.getElementById('sign-form');
         signForm.style.display = 'none';
 
-        // TODO: Save some sort of token to track whether the user signed previously or not
-        // TODO: Also make this check in the firebase functions
-
+        localStorage.setItem('id', payload.id);
     } catch(err) {
         console.log(err);
-        // TODO: Handle error with a toast
+        showSnackbar();
     } finally {
         signButton.setAttribute('data-loading', 'false');
     }
@@ -130,8 +134,7 @@ async function getSignatures() {
     messagesElement.setAttribute('data-loading', 'true');
 
     try {
-        // TODO: Sort by time ascending
-        const snapshot = await getDocs(query(guestSignatureCollection));
+        const snapshot = await getDocs(query(guestSignatureCollection, orderBy('timestamp', 'desc')));
     
         snapshot.forEach(doc => {
             const signature = doc.data();
@@ -142,7 +145,7 @@ async function getSignatures() {
             messagesElement.appendChild(guestMessage);
         });
     } catch(err) {
-        // TODO: Handle error with a toast
+        showSnackbar();
     } finally {
         document.getElementById('signature-heading').style.marginBottom = '36px'
         messagesElement.setAttribute('data-loading', 'false');
@@ -173,6 +176,12 @@ function createMessageElement(name = '', message = '') {
     guestMessage.appendChild(messageElement);
 
     return guestMessage;
+}
+
+function showSnackbar() {
+    const x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.classList.remove('show'); }, 3000);
 }
 
 document.addEventListener('DOMContentLoaded', main);
