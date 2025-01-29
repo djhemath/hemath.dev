@@ -27,7 +27,7 @@ Almost every post is going to be practical-first so that everyone can understand
 - [Why WebAssembly is faster than JavaScript](/blog/webassembly/why-webassembly-is-faster-than-javascript)
 - [Components of WebAssembly](/blog/webassembly/components-of-webassembly)
 - [Building a simple image processor using WebAssembly](/blog/webassembly/build-image-processor-application-with-webassembly)
-- Building a video to gif convertor with ffmpeg using WebAssembly
+- [Building a video to gif convertor with ffmpeg using WebAssembly](/blog/webassembly/build-video-to-gif-converter-with-ffpmeg-webassembly)
 
 You can find code for all the projects we build in this [repository](https://github.com/djhemath/Webassembly-demos)
 

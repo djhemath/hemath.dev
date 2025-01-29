@@ -1,7 +1,7 @@
 ---
 title: Build a video to gif converter with ffmpeg using webassembly
 date: '2025-01-27T09:00:00.000Z'
-draft: true
+draft: false
 type: blog
 excerpt: Learn how to build a video to gif converter with ffmpeg using webassembly
 keywords:
