@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="output_1">output 1</div>
+    <div id="output_2">output 2</div>
+    <button id="prime_wasm">WASM</button>
+    <button id="prime_js">JS</button>
+    
+    <script src="./prime.js"></script>
+
+    <script>
+        // const N = 100000000;
+        const N = 1000000000;
+        const prime = Module.cwrap('prime', 'number', ['number']);
+
+        document.getElementById('prime_wasm').addEventListener('click', () => {
+            const start = performance.now();
+            // const result = prime(50);
+
+            const sieve = Module._sieve_of_eratosthenes;
+            console.log(sieve)
+
+            // Allocate memory for the primes array
+            const primesPtr = Module._malloc((N + 1) * 1); // 1 byte per bool
+
+            // Run the sieve function
+            prime(N, primesPtr);
+
+            // Read the results
+            const primes = [];
+            for (let i = 0; i <= N; i++) {
+                if (Module.HEAPU8[primesPtr + i]) primes.push(i);
+            }
+
+            Module._free(primesPtr);
+
+            const end = performance.now();
+            document.getElementById('output_1').innerText = (end - start) / 1000;
+        });
+
+        document.getElementById('prime_js').addEventListener('click', () => {
+            const start = performance.now();
+            const result = jsprime(N);
+            const end = performance.now();
+            document.getElementById('output_2').innerText = (end - start) / 1000;
+        });
+
+        function jsprime(n) {
+            console.log(n + 1);
+            const primes = new Array(n + 1).fill(true);
+            primes[0] = primes[1] = false; // 0 and 1 are not prime numbers
+
+            for (let i = 2; i * i <= n; i++) {
+                if (primes[i]) {
+                    for (let j = i * i; j <= n; j += i) {
+                        primes[j] = false;
+                    }
+                }
+            }
+
+            const result = [];
+            for (let i = 2; i <= n; i++) {
+                if (primes[i]) result.push(i);
+            }
+
+            return result;
+        }
+
+    </script>
+</body>
+</html>

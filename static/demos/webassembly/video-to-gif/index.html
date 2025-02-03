@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video to GIF</title>
+</head>
+<body>
+  <video id="video" width="640" height="360" controls>
+    <source src="./12313-237429276_small.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <canvas id="canvas" style="display: none;"></canvas>
+  <button id="convertButton">Convert to GIF</button>
+  <img id="gifOutput" alt="GIF will appear here">
+
+  <script src="./gifjs/gif.js"></script>
+  <script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const convertButton = document.getElementById('convertButton');
+    const gifOutput = document.getElementById('gifOutput');
+
+    const frameRate = 10; // Frames per second
+    const gif = new GIF({
+      workers: 2, // Number of workers for GIF creation
+      quality: 10, // Quality of the GIF (lower is better quality)
+      width: 640, // Width of the GIF
+      height: 360, // Height of the GIF
+      workerScript: './gifjs/gif.worker.js'
+    });
+
+    let start = 0;
+    convertButton.addEventListener('click', () => {
+      start = performance.now();
+      // Start capturing frames
+      video.currentTime = 0;
+      video.play();
+
+      // Set canvas size to match video
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+
+      // Capture frames at the specified frame rate
+      let captureInterval = setInterval(() => {
+        console.log('interval', video.paused, video.ended)
+        if (video.paused || video.ended) {
+          clearInterval(captureInterval);
+          gif.render(); // Render the GIF once all frames are captured
+        } else {
+          // Draw the current video frame onto the canvas
+          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+          // Add the current frame to the GIF
+          gif.addFrame(canvas, { delay: 1000 / frameRate, copy: true });
+        }
+      }, 1000 / frameRate);
+    });
+
+    // Once the GIF is created, display it
+    gif.on('finished', (blob) => {
+      const end = performance.now();
+
+      console.log(start);
+      console.log((end-start)/1000)
+        console.log('finished', blob)
+      gifOutput.src = URL.createObjectURL(blob);
+    });
+  </script>
+</body>
+</html>

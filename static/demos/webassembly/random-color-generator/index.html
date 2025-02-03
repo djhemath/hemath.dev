@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Hex Color Generator</title>
+  <script src="random_color.js"></script> <!-- Include the generated glue code -->
+</head>
+<body>
+  <h1>Random Background Color</h1>
+  <button onclick="changeBackgroundColor()">Generate Random Color</button>
+
+  <script>
+    function changeBackgroundColor() {
+        const generateRandomHexColor = Module.cwrap("generateRandomHexColor", "number", []);
+
+      const colorPtr = generateRandomHexColor();
+      const color = Module.UTF8ToString(colorPtr);
+      console.log(color);
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video to GIF Converter</title>
+</head>
+<body>
+  <h1>Convert Video to GIF</h1>
+  <input type="file" id="videoInput" accept="video/*">
+  <button id="convertButton">Convert to GIF</button>
+  <br>
+  <img id="gifOutput" src="" alt="Your GIF will appear here">
+  
+  <script type="module">
+    import * as ffmpegLib from './package/dist/esm/index.js';
+
+    const ffmpeg = new ffmpegLib.FFmpeg();
+    const videoInput = document.getElementById('videoInput');
+    const convertButton = document.getElementById('convertButton');
+    const gifOutput = document.getElementById('gifOutput');
+    ffmpeg.load();
+
+    async function convertToGif(videoFile) {
+        // debugger
+      const videoFileName = videoFile.name;
+
+        // Use FileReader to read the video file as an ArrayBuffer
+        const fileReader = new FileReader();
+        
+        // Return a promise to handle the asynchronous FileReader operation
+        const readFilePromise = new Promise((resolve, reject) => {
+            fileReader.onload = () => resolve(fileReader.result);
+            fileReader.onerror = reject;
+        });
+
+        // Read the video file as an ArrayBuffer
+        fileReader.readAsArrayBuffer(videoFile);
+        
+        // Wait for the file to be read
+        const fileBuffer = await readFilePromise;
+
+        // Write the video file buffer to the FFmpeg filesystem
+        await ffmpeg.writeFile(videoFileName, new Uint8Array(fileBuffer));
+
+      // Run FFmpeg command to convert video to GIF
+      await ffmpeg.exec([
+        '-i', videoFileName,       // Input file
+        '-vf', 'fps=10,scale=320:-1', // Video filter: 10 frames per second, width 320px (height auto)
+        '-c:v', 'gif',             // Output format: GIF
+        'output.gif'               // Output file name
+      ]);
+
+
+      // Read the output GIF file
+      const data = await ffmpeg.readFile('output.gif');
+
+
+      // Convert the data to a URL and display the GIF
+      const gifBlob = new Blob([data.buffer], { type: 'image/gif' });
+      const gifUrl = URL.createObjectURL(gifBlob);
+      gifOutput.src = gifUrl;
+    }
+
+    convertButton.addEventListener('click', async () => {
+      const videoFile = videoInput.files[0];
+      if (videoFile) {
+        const start = performance.now();
+        await convertToGif(videoFile);
+        const end = performance.now();
+        console.log((end-start)/1000);
+      } else {
+        alert('Please select a video file first!');
+      }
+    });
+
+  </script>
+</body>
+</html>
