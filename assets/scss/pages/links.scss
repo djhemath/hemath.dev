@@ -72,6 +72,11 @@ main#links-page {
             width: 48px !important;
             height: 48px !important;
         }
+
+        #email-icon {
+            width: 48px !important;
+            height: 48px !important;
+        }
     }
 
     @media only screen and (max-width: 330px) {
@@ -89,6 +94,15 @@ main#links-page {
             #github-icon {
                 width: 28px !important;
                 height: 28px !important;
+            }
+
+            #email-icon {
+                width: 28px !important;
+                height: 28px !important;
+            }
+
+            img {
+                width: 32px;
             }
         }
     }
