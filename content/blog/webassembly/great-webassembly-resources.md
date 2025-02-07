@@ -34,4 +34,4 @@ I just wanted to quicky share some of my favourite WebAssembly resources which I
 - [Emscripten](https://emscripten.org/) - a WASM compiler for C and C++
 - [TinyGo](https://tinygo.org/) - a WASM compiler for Golang
 
-If you find some interesting resource, please share it to me via [mailto:hem@hemath.dev](hem@hemath.dev)
+If you find some interesting resource, please share it to me via [hem@hemath.dev](mailto:hem@hemath.dev)
