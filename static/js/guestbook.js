@@ -145,7 +145,7 @@ async function getSignatures() {
     } catch(err) {
         showSnackbar();
     } finally {
-        document.getElementById('signature-heading').style.marginBottom = '36px'
+        // document.getElementById('signature-heading').style.marginBottom = '36px'
         messagesElement.setAttribute('data-loading', 'false');
     }
 }
@@ -157,7 +157,7 @@ function createMessageElement(name = '', message = '') {
     const nameElement = document.createElement('a');
 
     if(name) {
-        nameElement.innerHTML = `${name}:`;
+        nameElement.innerHTML = `${name}`;
     } else {
         nameElement.innerHTML = `Anonymous:`;
     }

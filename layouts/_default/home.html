@@ -7,9 +7,10 @@
 
     {{ partial "social-links.html" . }}
 
-    {{ partial "section-with-title.html" (dict "ctx" . "title" "Work" "children" "work.html") }}
+    <!-- {{ partial "section-with-title.html" (dict "ctx" . "title" "Work" "children" "work.html") }} -->
+      {{ partial "section-with-title.html" (dict "ctx" . "title" "Talks" "children" "talks.html") }}
 
-    {{ partial "section-with-title.html" (dict "ctx" . "title" "Tech" "children" "tech.html") }}
+    {{ partial "section-with-title.html" (dict "ctx" . "title" "Toys" "children" "tech.html") }}
 
     {{ partial "section-with-title.html" (dict "ctx" . "title" "Projects" "children" "projects.html") }}
 
