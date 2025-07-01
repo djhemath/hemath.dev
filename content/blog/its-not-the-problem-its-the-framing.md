@@ -4,9 +4,8 @@ date: '2025-06-10T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: The smartest solution isn't always the most complex one, it's the one that quietly works without demanding your time.
-categories: tips
+categories: ["Engineering"]
 table_of_contents: false
-categories: ["engineering", "product-thinking", "prioritization"]
 ---
 
 > Real engineering wisdom is knowing when to stop building.

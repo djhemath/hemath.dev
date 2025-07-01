@@ -4,7 +4,7 @@ date: '2025-02-06T14:10:00.000Z'
 draft: false
 type: blog
 excerpt: Subscribing to a blog with email is good but it compels me to consume a ton content every morning. I'd rather setup RSS and read things on my free time.
-categories: ["communication", "digital-life", "content-consumption", "decluttering"]
+categories: ["Communication"]
 ---
 
 Hey folks,

@@ -4,9 +4,8 @@ date: '2025-04-09T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: Everyone’s mentoring 100+ people these days, or so their LinkedIn says. But real mentorship isn’t about reach; it’s about being there when it actually matters.
-categories: rant
+categories: ["Career", "Rant", "Authenticity"]
 table_of_contents: false
-categories: ["mentorship", "authenticity", "social-media", "rant"]
 ---
 
 > Everyone wants to be Yoda on LinkedIn but forgets that Yoda barely spoke.
@@ -31,7 +30,7 @@ Don't get me wrong. Sharing tips, tweeting advice, running a Discord, and all of
 
 And the worst part? This stuff gets rewarded. "Mentoring 200+ students" sounds shiny on a resume. It's LinkedIn-gold. Suddenly, being a thoughtful, low-key mentor to 5 people doesn't feel impressive. But it is. Honestly, it's way harder. It takes effort, consistency, and the willingness to not be in the spotlight.
 
-> Mentorship isn’t a metric. It’s a responsibility.
+> Mentorship isn't a metric. It's a responsibility.
 
 Even my own mentor doesn't have a hundred mentees. But when I talk to him, it's deep. I walk away thinking for days. That's the kind of impact I want to pass on, not dopamine hits.
 

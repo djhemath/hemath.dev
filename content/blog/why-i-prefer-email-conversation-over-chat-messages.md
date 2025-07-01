@@ -4,14 +4,14 @@ date: '2025-02-02T14:10:00.000Z'
 draft: false
 type: blog
 excerpt: Writing emails and letters feel like thoughtful whereas chat messages feel like mindless replies
-categories: ["communication", "digital-life", "reflections"]
+categories: ["Communication"]
 ---
 
 I prefer email and letters more than chat messages, and you might to. We live in a wolrd of instant messages. Everything is just a quick tap away.
 
-But over sometime I realized that chat messages seem mindless and disposable. I often reply without thinking much, sometimes even on autopilot, and completely forget about the conversation later. It’s like my brain doesn’t register those interactions deeply.
+But over sometime I realized that chat messages seem mindless and disposable. I often reply without thinking much, sometimes even on autopilot, and completely forget about the conversation later. It's like my brain doesn't register those interactions deeply.
 
-On the other hand, emails and letters feel different. There’s a certain depth and intentionality in writing them. It’s not just about sending a message. It’s about crafting a response and thinking through words.
+On the other hand, emails and letters feel different. There's a certain depth and intentionality in writing them. It's not just about sending a message. It's about crafting a response and thinking through words.
 
 Emails don't expect instant reply. There are no blue ticks adding a pressure to reply as soon as you read it. We can take time to think before writing. Moreover emails have structure, tldrs and threads. It just feels human for me.
 
@@ -36,9 +36,9 @@ It's not that little toy-telescope that I value. It's that little piece of text 
 Again, call me a old-guy, I don't care. But I'd never value chat messages more than well-thought emails and letters.
 
 
-I’m not saying we should abandon instant messaging (it has its place), but maybe we should slow down. Instead of firing off quick replies, what if we took a few moments to actually think? What if we treated some conversations as emails—even if they happen in chat?
+I'm not saying we should abandon instant messaging (it has its place), but maybe we should slow down. Instead of firing off quick replies, what if we took a few moments to actually think? What if we treated some conversations as emails—even if they happen in chat?
 
-At the end of the day, communication isn’t just about exchanging words. It’s about making connections that matter.
+At the end of the day, communication isn't just about exchanging words. It's about making connections that matter.
 
 
 You got something more to add to this, feel free to write an email to me - [hem@hemath.dev](hem@hemath.dev)

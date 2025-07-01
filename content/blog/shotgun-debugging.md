@@ -4,7 +4,7 @@ date: '2025-05-06T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: Sometimes, the fix isn't the real fix, and that's where things get interesting.
-categories: ["engineering", "debugging", "dev-mistakes"]
+categories: ["Engineering", "Debugging"]
 table_of_contents: false
 ---
 

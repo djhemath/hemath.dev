@@ -4,7 +4,7 @@ date: '2025-06-26T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: Most of us obsess over writing code, but forget that reading it is where the real work happens.
-categories: ["engineering", "engineering-culture", "mindset"]
+categories: ["Engineering", "Dev Culture"]
 table_of_contents: false
 ---
 

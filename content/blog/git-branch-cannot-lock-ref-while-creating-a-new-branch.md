@@ -5,12 +5,12 @@ draft: false
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fissue-1.png?alt=media&token=c8bb904c-4018-4ded-ba79-f062e9d536ce
 excerpt: I was trying to create a branch in some_branch/feature/ticket. But Git thrown cannot lock ref error saying that the branch already exists
-categories: ["git", "debugging", "dev-notes"]
+categories: ["Project"]
 ---
 I just encountered a Git error yesterday. I was trying to create a branch in some_branch/feature/ticket. But Git thrown the following error,
 
 ```txt
-fatal: cannot lock ref ‘refs/heads/some_branch/feature/ticket': ‘refs/heads/some_branch' exists; cannot create ‘refs/heads/some_branch/feature/ticket'
+fatal: cannot lock ref 'refs/heads/some_branch/feature/ticket': 'refs/heads/some_branch' exists; cannot create 'refs/heads/some_branch/feature/ticket'
 ```
 
 Initially I didn't understand it. Because I already created similar kinda branches like dev/hemath/feature. But this time it didn't work. So I did some research on the internet and found a great underrated answer in Stackoverflow. Check it out.

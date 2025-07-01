@@ -5,7 +5,7 @@ draft: false
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fnew-project-investments-tracker.png?alt=media&token=7c79a16c-b2cd-4278-8f67-bf21d9f66248
 excerpt: Gonna start another hobby project. It's an investment tracker that will help me track my investments and helps me know profits made by each investment.
-categories: project
+categories: ["Project"]
 ---
 
 Starting up another hobby project here. It's an investment tracker. This little tool's gonna help me keep tabs on my investments and figure out how much I'm making from each one.

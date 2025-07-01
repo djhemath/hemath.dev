@@ -4,7 +4,7 @@ date: '2025-05-14T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: When two files always change together, that’s temporal coupling. It’s worth paying attention to.
-categories: ["refactoring", "architecture", "code-quality", "refactoring"]
+categories: ["Engineering", "Architecture"]
 table_of_contents: false
 ---
 

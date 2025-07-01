@@ -5,7 +5,7 @@ draft: true
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fi-built-this-blog.jpg?alt=media&token=91c90104-679e-4045-b3b9-28d2f11efd3e
 excerpt: Join me on my journey to build a more meaningful, consistent, and cost-effective blog using NextJS 13.
-categories: ["uncategorized"]
+categories: ["Project"]
 ---
 
 Hey there, folks!

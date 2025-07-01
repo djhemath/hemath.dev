@@ -38,7 +38,7 @@ I think what bothers me isn't just that we do it. It's that we **normalize** it.
 
 That's what this whole thing has become. Not creating, but performing.
 
-And yeah, I've played the game too. I've added meta tags. Rewrote titles. Chased views. It works. But every time I lean too far into it, I feel a bit fake. Like I'm not writing for a person, I'm writing for a robot with ranking powers.
+And yeah, I've played the game too. I've added meta tags. Rewritten titles. Chased views. It works. But every time I lean too far into it, I feel a bit fake. Like I'm not writing for a person, I'm writing for a robot with ranking powers.
 
 I don't think the answer is to completely ignore algorithms. That's just yelling into the void. But maybe we need to stop obsessing over them. Maybe it's okay to let a good post live quietly. Maybe not every tweet needs a "hook". Maybe we create stuff because it matters to us first and if it reaches people, great. If not, also fine.
 

@@ -6,7 +6,7 @@ type: blog
 excerpt: We don't learn by being told, we learn by watching
 categories: tips
 table_of_contents: false
-categories: ["learning", "philosophy"]
+categories: ["Learning", "Philosophy"]
 ---
 
 > Rules tells us what to aim for. But examples show how it's done.
@@ -43,4 +43,4 @@ And that's what kids remember. Not from *what we say*, but from *what we do*. Yo
 
 Rules are useful, sure. They give structure, but without examples, they are just words. They don't move us.
 
-And that’s what this whole post is. Not a rule about avoiding rules. Just an example of how I've been thinking about it.
+And that's what this whole post is. Not a rule about avoiding rules. Just an example of how I've been thinking about it.

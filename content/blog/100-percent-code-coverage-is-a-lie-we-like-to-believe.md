@@ -4,7 +4,7 @@ date: '2025-06-18T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: 100% code coverage looks good in dashboards. But just because every line ran doesn't mean every edge case was truly tested.
-categories: ["engineering-lessons", "code-quality", "testing"]
+categories: ["Engineering"]
 table_of_contents: false
 ---
 

@@ -24,12 +24,12 @@ I've been working on this hobby side project. It was a very old idea that was li
 
 Oh man, finding motivation is not easy with hobby projects. Some days I sit and overdo it, and other days I just stare at the screen and do nothing completely. But I wanna push myself and complete this project as soon as possible.
 
-After some days, I found out that we can add something called “Topics” to our repos in Github. It acts like tags. I added that for the frontend repo and the next day I received a comment on one of my issues. A person asked if they could work on that issue. I obviously said yes, but that person didn't respond.
+After some days, I found out that we can add something called "Topics" to our repos in Github. It acts like tags. I added that for the frontend repo and the next day I received a comment on one of my issues. A person asked if they could work on that issue. I obviously said yes, but that person didn't respond.
 
 Checkout the project - [https://github.com/Dev-Profile-Page](https://github.com/Dev-Profile-Page)
 
 ## The Birthday
-It was a dramatic day. One of my good friends, also a sister “Rij” brought me a cake for my birthday. But she forgot the actual date and ended up visiting me a day before my birthday. It's kind of a new experience to cut my birthday cake before a day. Her face when she realized that Jan 20 isn't my birthday was funny.
+It was a dramatic day. One of my good friends, also a sister "Rij" brought me a cake for my birthday. But she forgot the actual date and ended up visiting me a day before my birthday. It's kind of a new experience to cut my birthday cake before a day. Her face when she realized that Jan 20 isn't my birthday was funny.
 
 She brought a birthday hat, it's my first time having one.
 ![Me, wearing a birthday cap](https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fme-with-birthday-cap-min.jpg?alt=media&token=f91ddfb9-05b1-4fb7-9f93-c6eb914169a1)
@@ -39,20 +39,20 @@ A funny thing happened, as I'm not used to celebrating my birthdays, especially 
 ### The surprise
 As the day went off, I felt sleepy early and went to bed. Exactly at 12 I got a call from Rij wishing for my birthday again 🤦. Lost my sleep.
 
-Around 12.20, I got a birthday wish as a message from my so-called bestie “Harini”.
+Around 12.20, I got a birthday wish as a message from my so-called bestie "Harini".
 
-Another 10 mins passed and I got a call from “Sai” - a well wisher, mentor, brother. He wished me, and that was a complete surprise. His wife “Ramya” wished me (yes, he got finally married last year). And Ragav (a well wisher, mentor, brother, my network interface card 😄, etc.,) was also in the call. At first, he acted like he didn't know about my birthday and I thought that he forgot that.
+Another 10 mins passed and I got a call from "Sai" - a well wisher, mentor, brother. He wished me, and that was a complete surprise. His wife "Ramya" wished me (yes, he got finally married last year). And Ragav (a well wisher, mentor, brother, my network interface card 😄, etc.,) was also in the call. At first, he acted like he didn't know about my birthday and I thought that he forgot that.
 
 
 All of a sudden, Sai asked me to open the door, I was shocked.
 
 Following things are going in my mind,\
-“Did Sai really come to my home?”\
-“He doesn't know the location, how can he come?”\
-“He is also a space enthusiast, so maybe he spotted a cool start or structure in the sky and he will ask me to look that”\
-“Are there going to be any jumpscares?”
+"Did Sai really come to my home?"\
+"He doesn't know the location, how can he come?"\
+"He is also a space enthusiast, so maybe he spotted a cool start or structure in the sky and he will ask me to look that"\
+"Are there going to be any jumpscares?"
 
-While on the call, I opened the door, nobody's there. Went to take a look at the main door and I saw “Ramya” standing alone with a box.
+While on the call, I opened the door, nobody's there. Went to take a look at the main door and I saw "Ramya" standing alone with a box.
 
 I'm stunned, they really came to my home. But I don't see Ragav or Sai anywhere. In the call, Sai told that he was not there, only Ramya came. Though it's hard to believe, I brought her up and closed the main door. Suddenly after some seconds, both Sai and Ragav showed up at the door.
 
@@ -60,7 +60,7 @@ They are playing with me, but me being stupid didn't guess that. Brought everyon
 
 The socially inactive Hemath don't even know what to speak despite Sai asking me to speak something. I kept quiet, didn't know what to talk about, it was some awkward moment. I've never been like that, but I really felt that I'm socially bad these days. I should get my ass off my chair, go out, and interact with real people more often.
 
-After these, my childhood friend ‘Pavan' called me to wish. We spoke for a while, cracked some jokes. And I wasn't able to sleep, so we both ended up playing a game (PUBG) together till 6AM in the morning.
+After these, my childhood friend 'Pavan' called me to wish. We spoke for a while, cracked some jokes. And I wasn't able to sleep, so we both ended up playing a game (PUBG) together till 6AM in the morning.
 
 ## Karthi - hospitalized - but back
 Karthi - one of my college friends is hospitalized for about a month because of an issue with the nervous system. Some kinda fever disturbed his nervous system and he wasn't able to lift his hands and not even walk normally.
@@ -76,7 +76,7 @@ I may wait for this week. If there are no good updates, I should take action. Pr
 
 ## Some achievements
 1. Learned to use the react-hook-form and integrated it with my custom components in the Dev profile page project. Faced issues with file uploads, but solved it eventually.
-2. Completed an algorithm that randomly picks a position in an image, draws a custom shape in it and extracts a copy of that shape. It's used in the “Slider captcha” variant in my office project “MTCaptcha”. I did all this with plain ol'Java and AWT. The performance is stunning, it takes just 7ms to generate a pair of images.
+2. Completed an algorithm that randomly picks a position in an image, draws a custom shape in it and extracts a copy of that shape. It's used in the "Slider captcha" variant in my office project "MTCaptcha". I did all this with plain ol'Java and AWT. The performance is stunning, it takes just 7ms to generate a pair of images.
 3. Strongly said NO to my other project in the office as I used up my allocated time for that project. I defended all the requests, urgent things and boldly said No.
 
 ## Some failures/mistakes

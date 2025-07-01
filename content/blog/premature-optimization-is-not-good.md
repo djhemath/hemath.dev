@@ -4,7 +4,7 @@ date: '2025-04-29T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: Premature optimization feels productive, but it's often just polished guesswork. Every line of code is a liability don't write more than the problem demands.
-categories: ["engineering", "architecture", "dev-mistakes"]
+categories: ["Engineering"]
 table_of_contents: false
 ---
 

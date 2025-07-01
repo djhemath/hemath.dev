@@ -4,7 +4,7 @@ date: '2025-03-27T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: You don’t need to speak in every room to prove you’re smart. Sometimes the real flex is knowing when to stay quiet, and still be the sharpest one there.
-categories: ["dev-culture", "communication", "soft-skills"]
+categories: ["Dev Culture", "Communication"]
 table_of_contents: false
 ---
 
@@ -18,7 +18,7 @@ But here's the thing. Sometimes, the smartest move is just to shut up and listen
 
 I'm not saying zone out. I'm saying **actually** listen. Observe. Track the conversation. Let the loud ones go full TED Talk if they want to. Let them make their points, repeat themselves, circle back, and go off on tangents. You're not being passive. You're being present without burning your energy on showmanship.
 
-> Being the loudest in the room doesn’t make you the smartest - just the loudest
+> Being the loudest in the room doesn't make you the smartest - just the loudest
 
 I've been in a room where someone was confidently explaining how a specific caching strategy works and they were close, but slightly off. Not a big deal. I didn't jump in. They kept going. Ten minutes later, they hit a wall. That's when I stepped in, gently corrected it, and tied it back to what they were saying. No one rolled their eyes. In fact, they appreciated it. Because I wasn't interrupting to flex. I was just there, filling the gap, keeping the flow.
 

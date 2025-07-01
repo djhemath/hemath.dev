@@ -4,7 +4,7 @@ date: '2025-05-29T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: You don't need a personal brand to be a great engineer. You just need to build, think deeply, and share things that matter.
-categories: ["dev-culture", "personal-branding", "authenticity"]
+categories: ["Dev Culture", "Authenticity"]
 table_of_contents: false
 ---
 

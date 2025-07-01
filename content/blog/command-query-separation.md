@@ -3,8 +3,8 @@ title: Command-Query separation
 date: '2025-06-04T18:00:00.000Z'
 draft: false
 type: blog
-excerpt: Do something or return something, but never both.
-categories: ["engineering-lessons", "design-principles", "clean-code"]
+excerpt: Command Query Separation is a simple but powerful design principle. Let's see how it can make your code cleaner and more maintainable.
+categories: ["Engineering"]
 table_of_contents: false
 ---
 

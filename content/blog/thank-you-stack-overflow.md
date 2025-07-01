@@ -4,7 +4,7 @@ date: '2025-04-17T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: A thank you letter to Stack Overflow
-categories: ["dev-life", "gratitude", "nostalgia"]
+categories: ["Personal", "Gratitude"]
 table_of_contents: false
 ---
 
@@ -36,7 +36,7 @@ Sure, Stack Overflow wasn't perfect. Some replies felt cold or way too sarcastic
 
 Even now, I still land there often. I might've asked the AI first, but then I find myself on some old thread, reading through how someone solved a tricky bug in 2013 and someone else replied "thanks, still helping in 2024." And I smile, because same.
 
-So yeah. I don’t know where Stack Overflow’s headed. I hope it stays around. I hope people keep answering, keep asking, even if they could’ve just used AI. Because there’s value in seeing how real people solve real problems, the thought process, the gotchas, the humor, the long-winded explanations that end with "hope that helps lol."
+So yeah. I don't know where Stack Overflow's headed. I hope it stays around. I hope people keep answering, keep asking, even if they could've just used AI. Because there's value in seeing how real people solve real problems, the thought process, the gotchas, the humor, the long-winded explanations that end with "hope that helps lol."
 
 It always did help.
 
