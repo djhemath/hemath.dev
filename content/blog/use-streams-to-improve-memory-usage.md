@@ -4,7 +4,7 @@ date: '2025-04-22T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: Most people load entire files into memory and call it a script. But real-world data doesn’t wait, it flows. That’s where streams shine.
-categories: ["engineering", "engineering-culture", "nodejs", "streams", "performance"]
+categories: ["Engineering"]
 table_of_contents: false
 ---
 

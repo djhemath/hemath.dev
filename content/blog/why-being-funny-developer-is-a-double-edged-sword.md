@@ -4,7 +4,7 @@ date: '2025-02-10T08:00:00.000Z'
 draft: false
 type: blog
 excerpt: I like keeping things light at work with jokes, memes, good vibes. But sometimes people forget I ship code too, not just punchlines.
-categories: ["developer-lifestyle", "career-growth", "soft-skills", "team-dynamics", "communication", "self-awareness", "dev-culture"]
+categories: ["Dev Culture", "Communication"]
 table_of_contents: false
 ---
 

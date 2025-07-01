@@ -4,7 +4,7 @@ date: '2025-03-18T18:00:00.000Z'
 draft: false
 type: blog
 excerpt: We’ve gotten so good at pleasing algorithms, we forgot why we started creating in the first place. It’s not about gaming the system, it’s about making something that actually matters.
-categories: ["internet-culture", "authenticity", "creator-life"]
+categories: ["Authenticity"]
 table_of_contents: false
 ---
 
