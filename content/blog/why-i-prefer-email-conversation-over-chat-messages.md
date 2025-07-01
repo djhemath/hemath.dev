@@ -4,6 +4,7 @@ date: '2025-02-02T14:10:00.000Z'
 draft: false
 type: blog
 excerpt: Writing emails and letters feel like thoughtful whereas chat messages feel like mindless replies
+categories: ["communication", "digital-life", "reflections"]
 ---
 
 I prefer email and letters more than chat messages, and you might to. We live in a wolrd of instant messages. Everything is just a quick tap away.

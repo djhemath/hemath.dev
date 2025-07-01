@@ -2,6 +2,9 @@
     "baseURL": "https://hemath.dev",
     "title": "Hemath - Software engineer",
     "language": "en-us",
+    "taxonomies": {
+      "category": "categories"
+    },
     "markup": {
       "goldmark": {
          "renderer": {

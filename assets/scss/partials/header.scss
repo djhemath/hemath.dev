@@ -29,6 +29,7 @@ header {
 
             &.active {
                 color: map-get($color-palette, primary);
+                font-weight: 500;
             }
         }
 
@@ -73,6 +74,14 @@ header {
     #ham, #close {
         position: absolute;
         transition: all 0.3s;
+    }
+
+    label {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

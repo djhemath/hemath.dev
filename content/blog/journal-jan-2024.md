@@ -5,7 +5,7 @@ draft: false
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fjournal-1.png?alt=media&token=1f7be717-42d4-474d-9b39-16a788ecd527
 excerpt: It feels like this month passed by quite quickly. Feel like I didn't accomplish that much. But still it's a good month. I discovered certain aspects of my life, asked a lot of questions to myself and some problems within me.
-category: issue
+categories: ["journal", "life"]
 ---
 
 It feels like this month passed by quite quickly. Feel like I didn't accomplish that much. But still it's a good month. I discovered certain aspects of my life, asked a lot of questions to myself and some problems within me.

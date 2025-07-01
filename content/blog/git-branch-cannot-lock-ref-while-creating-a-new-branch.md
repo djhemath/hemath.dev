@@ -5,7 +5,7 @@ draft: false
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fissue-1.png?alt=media&token=c8bb904c-4018-4ded-ba79-f062e9d536ce
 excerpt: I was trying to create a branch in some_branch/feature/ticket. But Git thrown cannot lock ref error saying that the branch already exists
-category: issue
+categories: ["git", "debugging", "dev-notes"]
 ---
 I just encountered a Git error yesterday. I was trying to create a branch in some_branch/feature/ticket. But Git thrown the following error,
 

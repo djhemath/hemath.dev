@@ -4,6 +4,7 @@ date: '2024-12-27T22:50:00.000Z'
 draft: false
 type: blog
 excerpt: Q1 of 2024 was filled with surprises and new experiences. From an unforgettable birthday surprise and an unintentional pre-birthday celebration to a spontaneous trip to Pondicherry and my mom's first BBQ dinner, these months were all about laughter, exploration, and creating lasting memories.
+categories: ["journal", "life", "travel"]
 ---
 
 Hey folks,

@@ -4,6 +4,7 @@ date: '2024-12-29T22:50:00.000Z'
 draft: false
 type: blog
 excerpt: Q3 of 2024 was a whirlwind of growth and change for me. From buying my first Mac and resigning from Sysvine to attending an Amazon interview and embarking on unforgettable trips, every moment brought new lessons. I joined Comcast, volunteered with JS Lovers, and entered the world of Nostr, all while cherishing time with friends before they left for their next adventures. It was a year of taking risks, embracing transitions, and finding joy in the journey.
+categories: ["journal", "life", "travel"]
 ---
 
 Hey makkals,

@@ -5,7 +5,7 @@ draft: false
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fdesigners-should-test-UI-not-the-QA-team.png?alt=media&token=610f1953-0018-4905-a27d-33e396a286c1
 excerpt: Designers who designed that good looking page or navbar should first see it in action. Test it. Well, visually test it. Once designers are happy, then it can be moved to the QA team for further tests.
-
+categories: ["ui-ux", "process", "collaboration"]
 ---
 
 Yep, this has been buzzing me for some weeks. I've been working with QA teams in multiple projects and heard stories from my developer/manager friends as well.

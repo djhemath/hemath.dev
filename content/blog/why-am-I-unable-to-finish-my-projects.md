@@ -4,7 +4,7 @@ date: '2024-07-17T08:00:00.000Z'
 draft: false
 type: blog
 excerpt: I'm not completing the projects that I start. Recently found out that I'm trying to perfect everything that creates a lot of friction and ultimately ends in abandonment.
-category: knowledge
+categories: ["perfectionism", "productivity", "mental-model"]
 ---
 Hey folks, it's been a while since I came up with a project idea. No pun intended. I started a lot of projects and finished nothing. I do have some finished ones, but they are not that big or something I would call “achieved”. My project ideas range from building chess boards, 2D engine, website generator, component library, quiz apps, comment system, etc., None of these came to a conclusion. How bad was that? Terrible isn't it? I mean I have the potential to build top-notch products, some of them can even make some money, but I'm not doing that.
 

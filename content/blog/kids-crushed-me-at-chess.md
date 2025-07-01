@@ -5,6 +5,7 @@ draft: false
 type: blog
 hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fkid-playing-chess.jpeg?alt=media&token=ba9c1f3d-7f92-416e-97ca-2a19b382d90d
 excerpt: Kids these days are very smart. I played a couple of matches against kids and they crushed me with out much effort. These games reminded me that how bad I'm at chess and forced me to improve a lot at it.
+categories: ["chess", "personal"]
 ---
 Yes. I play chess. Terribly. I've been playing chess for the past 2 years. Improved a lot, learned some openings and tactics. At this time of writing I passed 1300 in chess.com but still not a competitive player over the board. When it comes to OTB, I'm a 900 player. But trying to improve.
 

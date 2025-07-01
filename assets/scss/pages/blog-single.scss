@@ -29,6 +29,8 @@
     }
 
     article {
+        margin-top: 24px;
+
         * {
             word-break: break-word;
         }
@@ -85,11 +87,19 @@
                 font-weight: 600 !important;
                 padding-left: 24px;
             }
+
+            strong {
+                font-weight: bolder;
+            }
         }
 
         cite {
             font-size: small;
         }
+    }
+
+    .blog-footer {
+        margin: 24px 0;
     }
 }
 
