@@ -16,7 +16,7 @@ What followed was a week of edge cases and overengineered queries. I introduced 
 
 Nobody asked for GraphQL. It didn't solve any real problem for that project. I chose it because, it was trending.
 
-That mistake stuck with me. Not because it was costly and wasted a lot my time, but because it showed my how easy it is get to pulled by the hype. I picked a tool based on what's hot, not what's right.
+That mistake stuck with me. Not because it was costly and wasted a lot of my time, but because it showed my how easy it is get to pulled by the hype. I picked a tool based on what's hot, not what's right.
 
 That's not what good engineering is.
 
@@ -30,7 +30,7 @@ When someone says, "X is better than Y", they instinctively ask, "In what contex
 
 Take microservice as an example. If you worked in a project that's gone down the microservices rabbit-hole too early, you know the pain.
 
-All of a sudden, deployments became maze. Debugging requires multiple codebases open. If you zoom out and see, you're team spends more time managing the infra and the integrity of contracts than building stuff.
+All of a sudden, deployments became maze. Debugging requires multiple codebases open. If you zoom out and see, your team spends more time managing the infra and the integrity of contracts than building stuff.
 
 That doesn't mean microservices are bad. It just means, they come with trade-offs. And whether those trade-offs are worth or not, depends on your project, use case, your stage and the team.
 
@@ -64,3 +64,6 @@ Next time, choose wisely.
 Every decision in software has a cost. Good engineers don't avoid that. They just learn to spend wisely.
 
 And honestly, for me, that's way cooler than being trendy.
+
+-----
+Special thanks to [Chandru](https://x.com/cheandru) for proof-reading this!
