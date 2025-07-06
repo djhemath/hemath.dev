@@ -49,4 +49,4 @@ If you've got real experience with something, even if it's just a small win, sha
 
 Anyway, just something I've been thinking about. Maybe too much. But I figured I'd write it down myself.
 
-No AI wrote this. Just me, with some tea, typing away on a quiet night.
+No AI wrote this entirely. Just me, with some tea, typing away on a quiet night with a little assist here and there.
