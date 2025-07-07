@@ -75,5 +75,9 @@
     {{ block "main" . }}{{ end }}
 
     {{ partial "scripts/google-analytics.html" }}
+
+    {{if eq .Title "Hemath's blog"}}
+      <script src="/js/blog-list.js"></script>
+    {{end}}
   </body>
 </html>

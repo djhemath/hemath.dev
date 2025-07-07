@@ -5,7 +5,7 @@
 {{ if strings.HasPrefix $url "http" }}
     {{ $isExternal = not (strings.HasPrefix $url $parsedBaseURL) }}
 {{ end }}
-<div class="title-description">
+<div class="title-description{{ range .categories }} cat-{{ . | urlize }}{{ end }} cat-all">
     <a
         href="{{ $url }}"
         {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}
@@ -20,4 +20,8 @@
     <time datetime="{{.date}}">{{ .date.Format "Mon Jan 2, 2006" }}</time>
     {{ end }}
     <p class="description">{{ .description }}</p>
+
+    {{if eq .divider "true"}}
+        <div class="divider-rule"></div>
+    {{end}}
 </div>

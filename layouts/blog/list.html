@@ -1,15 +1,65 @@
 {{ define "main" }}
+{{ $page := . }}
 <main id="blogs">
   <h1>Hemath's Blog ☘️</h1>
+
+  <div id="categories-container">
+    <ul id="categories" class="categories" aria-expanded="true">
+      <li>
+        <button
+          tabindex="0"
+          aria-pressed="true"
+          class="category-pill"
+          id="all-category-pill"
+          data-category="all"
+        >
+          <b>All</b> ({{ len (where .Site.RegularPages "Type" "blog") }})
+        </button>
+      </li>
+      {{ $page.Scratch.Set "count" 0 }}
+      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        {{ $count := $page.Scratch.Get "count" }}
+        <li>
+          <button
+            class="category-pill"
+            {{ if lt $count 4 }}tabindex="0"{{else}}tabindex="-1"{{ end }}
+            aria-pressed="false"
+            data-category="{{$name | urlize}}"
+          >
+            <b>{{ $name | title }}</b> ({{ len $taxonomy }})
+          </button>
+        </li>
+
+        {{ $page.Scratch.Set "count" (add $count 1) }}
+      {{ end }}
+    </ul>
+  
+    <input type="checkbox" id="categories-toggle" />
+
+    <button
+      for="categories-toggle"
+      class="less-more-toggle"
+      id="less-more-toggle"
+      tabindex="0"
+      aria-controls="categories"
+      aria-expanded="false"
+      onclick="document.getElementById('categories-toggle').click()"
+    >
+      <span id="direction-text-more">more</span>
+      <span id="direction-text-less">less</span>
+      <svg id="direction-icon" width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.30037 0.235578C8.14858 0.0846916 7.94325 0 7.72923 0C7.51521 0 7.30988 0.0846916 7.15809 0.235578L4.24975 3.10342L1.38191 0.235578C1.23012 0.0846916 1.02479 0 0.810771 0C0.596747 0 0.39142 0.0846916 0.239633 0.235578C0.163702 0.310889 0.103433 0.40049 0.0623039 0.499211C0.021175 0.597932 0 0.70382 0 0.810766C0 0.917712 0.021175 1.0236 0.0623039 1.12232C0.103433 1.22104 0.163702 1.31064 0.239633 1.38595L3.67456 4.82088C3.74987 4.89681 3.83947 4.95708 3.93819 4.99821C4.03691 5.03934 4.1428 5.06051 4.24975 5.06051C4.35669 5.06051 4.46258 5.03934 4.5613 4.99821C4.66002 4.95708 4.74962 4.89681 4.82493 4.82088L8.30037 1.38595C8.3763 1.31064 8.43657 1.22104 8.4777 1.12232C8.51882 1.0236 8.54 0.917712 8.54 0.810766C8.54 0.70382 8.51882 0.597932 8.4777 0.499211C8.43657 0.40049 8.3763 0.310889 8.30037 0.235578Z" fill="#8022FF"/>
+      </svg>
+    </button>
+  </div>
+
   {{ range .Pages }}
     {{ if eq .Params.is_index true }}
       {{ range .Pages }}
-        {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink "date" .Params.Date) }}
-        <div class="divider-rule"></div>
+        {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink "date" .Params.Date "categories" .Params.Categories "divider" "true") }}
       {{ end }}
     {{ end}}
-    {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink "date" .Params.Date) }}
-    <div class="divider-rule"></div>
+    {{ partial "title-description.html" (dict "ctx" . "title" .Title "description" .Params.Excerpt "url" .Permalink "date" .Params.Date "categories" .Params.Categories "divider" "true") }}
   {{ end }}
 </main>
 {{ end }}
