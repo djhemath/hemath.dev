@@ -3,7 +3,16 @@
   <section>
     <p id="hemath-blog">Hemath's Blog ☘️</p>
     <h1 style="margin-top: 42px;">{{ .Title }}</h1>
-    <time datetime="{{.Date}}">{{ .Date.Format "Mon Jan 2, 2006" }}</time>
+
+    <div class="meta">
+      <time datetime="{{.Date}}">{{ .Date.Format "Mon Jan 2, 2006" }}</time>
+  
+      <div class="post-categories">
+        {{ if (isset .Params "categories") }}
+          {{ range .Params.categories }}<span class="post-category">{{.}}</span>{{ end }}
+        {{ end }}
+      </div>
+    </div>
 
     {{ if (isset .Params "hero_image") }}
       <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />

@@ -16,9 +16,17 @@
         </svg>
             
     </a>
-    {{ if (isset . "date") }}
-    <time datetime="{{.date}}">{{ .date.Format "Mon Jan 2, 2006" }}</time>
-    {{ end }}
+    <div class="post-meta">
+        {{ if (isset . "date") }}
+        <time datetime="{{.date}}">{{ .date.Format "Mon Jan 2, 2006" }}</time>
+        {{ end }}
+
+        <div class="post-categories">
+            {{ if (isset . "categories") }}
+                {{ range .categories }}<span class="post-category">{{.}}</span>{{ end }}
+            {{ end }}
+        </div>
+    </div>
     <p class="description">{{ .description }}</p>
 
     {{if eq .divider "true"}}

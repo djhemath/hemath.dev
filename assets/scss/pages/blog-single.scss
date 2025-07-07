@@ -6,6 +6,26 @@
         font-size: 24px !important;
     }
     
+    .meta {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 8px;
+
+        .post-categories {
+            display: flex;
+            gap: 6px;
+            
+            .post-category {
+                background-color: map-get($color-palette, primary);
+                color: map-get($color-palette, white);
+                padding: 4px 12px;
+                border-radius: 50px;
+                font-size: 12px;
+            }
+        }
+    }
+
     .hero-image {
         width: 100%;
         margin: 24px 0;
