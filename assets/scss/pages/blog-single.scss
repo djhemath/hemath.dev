@@ -11,10 +11,12 @@
         align-items: center;
         gap: 12px;
         margin-top: 8px;
+        flex-wrap: wrap;
 
         .post-categories {
             display: flex;
             gap: 6px;
+            flex-wrap: wrap;
             
             .post-category {
                 background-color: map-get($color-palette, primary);
