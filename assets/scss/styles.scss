@@ -103,6 +103,15 @@ body {
   font-style: normal;
 }
 
+.polka {
+  background-image: 
+    radial-gradient(rgb(191, 191, 191) 10%, transparent 10%),
+    radial-gradient(rgb(191, 191, 191) 10%, transparent 10%);
+  background-position: 0px 0px, 4px 4px;
+  background-size: 8px 8px;
+  background-color: rgb(255, 255, 255);
+}
+
 @media only screen and (max-width: 450px) {
   body {
     margin: 18px;
