@@ -15,7 +15,12 @@
     </div>
 
     {{ if (isset .Params "hero_image") }}
-      <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />
+      <figure>
+        <img class="hero-image" src="{{ .Params.hero_image }}" alt="hero image" />
+        {{ if (isset .Params "hero_image_caption") }}
+          <figcaption>{{.Params.hero_image_caption | .RenderString}}</figcaption>
+        {{ end }}
+      </figure>
     {{ end }}
 
     {{ if ne .Params.table_of_contents false }}
